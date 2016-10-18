@@ -1,0 +1,134 @@
+31
+
+* Improve toolbar design (Gary C. Martin)
+* Add some constants (Gary C. Martin)
+* Parser improvements
+
+30
+
+* Add support for matplotlib as plotting backend
+* Add support for complex plot ranges, e.g. -2*pi..2*pi
+* Fix superscript display bug
+
+29
+
+* Fix plotting of functions
+* Fix parsing of (in)equalities
+* Fix toolbar button issues
+
+28
+
+* Support 'real' scientific notation (#4250)
+* Add switching between exponential/scientific notation
+* Allow changing of number of displayed digits
+* Change cursor on equations to Hand (#6612)
+* Fix fall-through of unhandled CTRL keys (eg CTRL+Q)
+* Add recursion detection
+* Fixed error-handling bug
+
+26
+
+* Refactored equation drawing code
+* Move to new equation parser based on python ast
+* Refactor sharing
+* Add languages: bi, cs, en_US, fi, he, hu, sk, sv, sw, wa
+
+25
+
+* Spell 'license' correctly
+
+24
+
+* Division by 0 returns 'Undefined'
+* Make 'clear' and 'enter' translateable
+* Remove pseudo.po
+* Fix ne.po (newlines)
+* Fix translations that had taken mul_sym litterally
+* Add COPYING and AUTHORS
+* Update MANIFEST
+
+23
+
+* Add locale dir contents to MANIFEST
+
+22
+
+* Fix MANIFEST file with activity dir
+
+21
+
+* Updated translations
+
+20
+
+* Updated translations
+* Fix bugs in Rational class (#7235)
+* Fixed #5902 (help msg)
+
+19
+
+18
+
+17
+
+16
+
+15
+
+* Fixed parsing of fraction separators, #5319
+
+14
+
+* #5023, i18n support of help system improved
+* #5010, degrees/radians button fixed
+* #5003, rational number support
+
+13
+
+* Parser converted to unicode
+* Updates to improve translation #4527
+* Mul/Div symbol i18n #4573
+* Mul/Div button fixed #3526
+* Addressed #4250
+* Added palettes to buttons in toolbar
+
+12
+
+11
+
+10
+
+* Improved error reporting (catching function exceptions, could still be extended)
+* Simple help system ('help(index)')
+* Using gtk.Clipboard in stead of custom solution
+* functions(), variables(), operators(), rand() and randint() added
+* Clicking on equation box now adds answer or label, because of presedence issues
+* Fixed syncing of variables upon share
+
+9
+
+8
+
+* Plot support, plot(x^3,x=-2..2)
+* Fixed toolbar focus bug
+* Improved operator parsing ('*' vs '**' and '<' vs '<<')
+
+7
+
+6
+
+* Journal read/write support
+* Selecting and copy/paste functioning
+* Added tab completion of variable names
+* SharedState: Adjusted to new tubes API
+* Added factorize() function
+
+5
+
+* Adapt import from canvasicon -> icon module
+
+4
+
+3
+
+* Remove color module which is deprecated in sugar

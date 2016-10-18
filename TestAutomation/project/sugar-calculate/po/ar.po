@@ -1,0 +1,866 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# POT file for the Calculate activity
+# Copyright (C) 2007
+# This file is distributed under the same license as the Calculate package.
+# Reinier Heeres <reinier@heeres.eu>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 00:33-0400\n"
+"PO-Revision-Date: 2011-09-23 11:37+0200\n"
+"Last-Translator: Khaled Hosny <khaledhosny@eglug.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Calculate"
+msgstr "احسب"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"This is the place to get the answer to a quick problem, but that is not the "
+"limit! You can also explore Algebra, Trigonometry, Boolean and more!"
+msgstr ""
+
+#: astparser.py:40
+msgid ""
+"plot(eqn, var=-a..b), plot the equation 'eqn' with the variable 'var' in the "
+"range from a to b"
+msgstr ""
+"ارسم(المعادلة, س=-أ,.., ب), يرسم المعادلة مع المتغير س في الفترة من -أ إلى ب"
+
+#: astparser.py:59
+#, python-format
+msgid "Parse error at %d"
+msgstr ""
+
+#: astparser.py:71 astparser.py:83
+#, python-format
+msgid "Error at %d"
+msgstr "خطأ عند %d"
+
+#: astparser.py:94
+msgid "This is just a test topic, use help(index) for the index"
+msgstr "هذا فقط موضوع اختباري, استخدم مساعدة(رقم) للرقم المطلوب"
+
+#: astparser.py:106
+msgid "Use help(test) for help about 'test', or help(index) for the index"
+msgstr ""
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:109
+msgid "index"
+msgstr "الفهرس"
+
+#: astparser.py:109
+#, fuzzy
+msgid "topics"
+msgstr "المواضيع"
+
+#: astparser.py:110
+msgid "Topics"
+msgstr "المواضيع"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:118
+msgid "variables"
+msgstr "المتغيرات"
+
+#: astparser.py:119
+#, fuzzy
+msgid "Variables"
+msgstr "المتغيرات"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:125
+msgid "functions"
+msgstr "الدالات"
+
+#: astparser.py:126
+#, fuzzy
+msgid "Functions"
+msgstr "الدالات"
+
+#: astparser.py:135
+#, python-format
+msgid "No help about '%s' available, use help(index) for the index"
+msgstr "لا يوجد مساعدة للموضوع %s, استخدم مساعدة(الرقم) للحصول على معلومات"
+
+#: astparser.py:459
+#, fuzzy
+msgid "help"
+msgstr "مساعدة"
+
+#: astparser.py:466
+msgid "Recursion detected"
+msgstr ""
+
+#: astparser.py:490
+#, python-format
+msgid "Function '%s' not defined"
+msgstr "الدالة '%s' غير معرفة"
+
+#: astparser.py:492
+#, python-format
+msgid "Variable '%s' not defined"
+msgstr "المتغير '%s' غير معرف"
+
+#: astparser.py:502
+#, python-format
+msgid "Attribute '%s' does not exist"
+msgstr ""
+
+#: astparser.py:596
+msgid "Parse error"
+msgstr "خطأ تحليلي"
+
+#: astparser.py:601
+msgid "Multiple statements not supported"
+msgstr ""
+
+#: astparser.py:625
+msgid "Internal error"
+msgstr ""
+
+#: calculate.py:109
+#, python-format
+msgid "Equation.parse() string invalid (%s)"
+msgstr "Equation.parse() جملة غير صحيحة (%s)"
+
+#: calculate.py:483
+msgid "Can not assign label: will cause recursion"
+msgstr ""
+
+#: calculate.py:571
+#, python-format
+msgid "Writing to journal (%s)"
+msgstr "يكتب على الدفتر (%s)"
+
+#: calculate.py:865
+msgid "button_pressed(): invalid type"
+msgstr "الزر المضغوط (): نوع خاطئ"
+
+#: functions.py:35
+msgid "add"
+msgstr "اجمع"
+
+#: functions.py:36
+msgid "abs"
+msgstr "مطلق"
+
+#: functions.py:37
+msgid "acos"
+msgstr "قا"
+
+#: functions.py:38
+#, fuzzy
+msgid "acosh"
+msgstr "قا"
+
+#: functions.py:39
+msgid "asin"
+msgstr "قتا"
+
+#: functions.py:40
+#, fuzzy
+msgid "asinh"
+msgstr "قتا"
+
+#: functions.py:41
+msgid "atan"
+msgstr "ظتا"
+
+#: functions.py:42
+#, fuzzy
+msgid "atanh"
+msgstr "ظتا"
+
+#: functions.py:43
+msgid "and"
+msgstr "و"
+
+#: functions.py:44
+msgid "b10bin"
+msgstr ""
+
+#: functions.py:45
+msgid "ceil"
+msgstr ""
+
+#: functions.py:46
+msgid "cos"
+msgstr "جتا"
+
+#: functions.py:47
+#, fuzzy
+msgid "cosh"
+msgstr "جتا"
+
+#: functions.py:48
+msgid "div"
+msgstr ""
+
+#: functions.py:49
+msgid "gcd"
+msgstr ""
+
+#: functions.py:50
+msgid "exp"
+msgstr ""
+
+#: functions.py:51
+#, fuzzy
+msgid "factorial"
+msgstr "مضروب"
+
+#: functions.py:52
+msgid "fac"
+msgstr "مضروب"
+
+#: functions.py:53
+#, fuzzy
+msgid "factorize"
+msgstr "مضروب"
+
+#: functions.py:54
+msgid "floor"
+msgstr ""
+
+#: functions.py:55
+msgid "inv"
+msgstr ""
+
+#: functions.py:56
+msgid "is_int"
+msgstr ""
+
+#: functions.py:57
+msgid "ln"
+msgstr ""
+
+#: functions.py:58
+msgid "log10"
+msgstr ""
+
+#: functions.py:59
+msgid "mul"
+msgstr ""
+
+#: functions.py:60
+msgid "or"
+msgstr "أو"
+
+#: functions.py:61
+msgid "rand_float"
+msgstr ""
+
+#: functions.py:62
+msgid "rand_int"
+msgstr ""
+
+#: functions.py:63
+msgid "round"
+msgstr ""
+
+#: functions.py:64
+msgid "sin"
+msgstr "جا"
+
+#: functions.py:65
+#, fuzzy
+msgid "sinh"
+msgstr "جا"
+
+#: functions.py:66
+#, fuzzy
+msgid "sinc"
+msgstr "جا"
+
+#: functions.py:67
+msgid "sqrt"
+msgstr "الجذر_التربيعي"
+
+#: functions.py:68
+msgid "sub"
+msgstr ""
+
+#: functions.py:69
+msgid "square"
+msgstr "مربع"
+
+#: functions.py:70
+msgid "tan"
+msgstr "ظا"
+
+#: functions.py:71
+#, fuzzy
+msgid "tanh"
+msgstr "ظا"
+
+#: functions.py:72
+msgid "xor"
+msgstr ""
+
+#: functions.py:112
+msgid "abs(x), return absolute value of x, which means -x for x < 0"
+msgstr ""
+
+#: functions.py:117
+msgid ""
+"acos(x), return the arc cosine of x. This is the angle for which the cosine "
+"is x. Defined for -1 <= x < 1"
+msgstr ""
+"قا(س), قاس يساوي طول الوتر مقسوما على طول الضلع المجاور للزاوية س في المثلث "
+"القائم .ورياضيا يعبر عنه بالمعكوس الضربي لدالة جيب التمام أي نستخرجه بالآله "
+"الحاسبة كالتالي :جتا(س)^-1"
+
+#: functions.py:123
+msgid ""
+"acosh(x), return the arc hyperbolic cosine of x. This is the value y for "
+"which the hyperbolic cosine equals x."
+msgstr ""
+
+#: functions.py:129
+#, fuzzy
+msgid ""
+"And(x, y), logical and. Returns True if x and y are True, else returns False"
+msgstr ""
+"و(س, ص), 'و' المنطق. تُرجع صحيح إذا كانت س و ص صحيحتان, غير ذلك تُرجع خطأ"
+
+#: functions.py:136
+msgid "add(x, y), return x + y"
+msgstr ""
+
+#: functions.py:141
+#, fuzzy
+msgid ""
+"asin(x), return the arc sine of x. This is the angle for which the sine is "
+"x. Defined for -1 <= x <= 1"
+msgstr ""
+"قتا(س),  قتاس يساوي طول الوتر مقسوما على طول الضلع المقابل للزاوية س في "
+"المثلث القائم .ورياضيا يعبر عنه بالمعكوس الضربي لدالة الجيب أي نستخرجه "
+"بالآله الحاسبة كالتالي :جا(س)^-1"
+
+#: functions.py:147
+msgid ""
+"asinh(x), return the arc hyperbolic sine of x. This is the value y for which "
+"the hyperbolic sine equals x."
+msgstr ""
+
+#: functions.py:153
+msgid ""
+"atan(x), return the arc tangent of x. This is the angle for which the "
+"tangent is x. Defined for all x"
+msgstr ""
+"ظتا(س), ظتاس يساوي طول الضلع المجاور للزاوية س مقسوما على طول الضلع المقابل "
+"في المثلث القائم. ورياضيا يعبر عنه بالمعكوس الضربي لدالة الظل أي نستخرجه "
+"بالآله الحاسبة كالتالي :ظا(س)^-1"
+
+#: functions.py:159
+msgid ""
+"atanh(x), return the arc hyperbolic tangent of x. This is the value y for "
+"which the hyperbolic tangent equals x."
+msgstr ""
+
+#: functions.py:171
+msgid "Number does not look binary in base 10"
+msgstr ""
+
+#: functions.py:178
+msgid ""
+"b10bin(x), interpret a number written in base 10 as binary, e.g.: b10bin"
+"(10111) = 23,"
+msgstr ""
+
+#: functions.py:183
+msgid "ceil(x), return the smallest integer larger than x."
+msgstr ""
+
+#: functions.py:188
+msgid ""
+"cos(x), return the cosine of x. This is the x-coordinate on the unit circle "
+"at the angle x"
+msgstr ""
+"جتا(س), تعمل على إرجاع جتا الزاوية للقيمة س. و النتيجة عبارة عن الأحداثي س "
+"على دائرة الوحدة عند الزاوية س"
+
+#: functions.py:194
+msgid ""
+"cosh(x), return the hyperbolic cosine of x. Given by (exp(x) + exp(-x)) / 2"
+msgstr ""
+
+#: functions.py:198
+msgid "Can not divide by zero"
+msgstr ""
+
+#: functions.py:219
+msgid "Invalid argument"
+msgstr ""
+
+#: functions.py:222
+msgid ""
+"gcd(a, b), determine the greatest common denominator of a and b. For "
+"example, the biggest factor that is shared by the numbers 15 and 18 is 3."
+msgstr ""
+
+#: functions.py:227
+msgid "exp(x), return the natural exponent of x. Given by e^x"
+msgstr ""
+
+#: functions.py:231
+msgid "Factorial only defined for integers"
+msgstr ""
+
+#: functions.py:244
+msgid ""
+"factorial(n), return the factorial of n. Given by n * (n - 1) * (n - 2) * ..."
+msgstr ""
+
+#: functions.py:250
+msgid "fac(x), return the factorial of x. Given by x * (x - 1) * (x - 2) * ..."
+msgstr ""
+
+#: functions.py:283
+msgid "floor(x), return the largest integer smaller than x."
+msgstr ""
+
+#: functions.py:287
+msgid "inv(x), return the inverse of x, which is 1 / x"
+msgstr ""
+
+#: functions.py:309 functions.py:318
+msgid "Logarithm(x) only defined for x > 0"
+msgstr ""
+
+#: functions.py:311
+msgid ""
+"ln(x), return the natural logarithm of x. This is the value for which the "
+"exponent exp() equals x. Defined for x >= 0."
+msgstr ""
+
+#: functions.py:320
+msgid ""
+"log10(x), return the base 10 logarithm of x. This is the value y for which "
+"10^y equals x. Defined for x >= 0."
+msgstr ""
+
+#: functions.py:327
+msgid "Can only calculate x modulo <integer>"
+msgstr ""
+
+#: functions.py:329
+msgid ""
+"mod(x, y), return the modulus of x with respect to y. This is the remainder "
+"after dividing x by y."
+msgstr ""
+
+#: functions.py:337
+msgid "mul(x, y), return x * y"
+msgstr ""
+
+#: functions.py:341
+msgid "negate(x), return -x"
+msgstr ""
+
+#: functions.py:346
+#, fuzzy
+msgid ""
+"Or(x, y), logical or. Returns True if x or y is True, else returns False"
+msgstr ""
+"أو(س, ص), 'أو' المنطق. تُرجع صحيح إذا كانت س و/أو ص صحيحة/صحيحتان, غير ذلك "
+"تُرجع خطأ"
+
+#: functions.py:361
+msgid "pow(x, y), return x to the power y (x**y)"
+msgstr ""
+
+#: functions.py:366
+msgid "rand_float(), return a random floating point number between 0.0 and 1.0"
+msgstr ""
+
+#: functions.py:371
+msgid ""
+"rand_int([<maxval>]), return a random integer between 0 and <maxval>. "
+"<maxval> is an optional argument and is set to 65535 by default."
+msgstr ""
+
+#: functions.py:376
+msgid "round(x), return the integer nearest to x."
+msgstr ""
+
+#: functions.py:382 functions.py:390
+msgid "Bitwise operations only apply to integers"
+msgstr ""
+
+#: functions.py:384
+msgid "shift_left(x, y), shift x by y bits to the left (multiply by 2 per bit)"
+msgstr ""
+
+#: functions.py:392
+msgid "shift_right(x, y), shift x by y bits to the right (divide by 2 per bit)"
+msgstr ""
+
+#: functions.py:397
+msgid ""
+"sin(x), return the sine of x. This is the y-coordinate on the unit circle at "
+"the angle x"
+msgstr ""
+"جا(س), يعمل على إرجاع الجاب للقيمة س. هذه القيمة هي الأحداثية ص على دائرة "
+"الوحدة عند الزاوية س"
+
+#: functions.py:403
+msgid ""
+"sinh(x), return the hyperbolic sine of x. Given by (exp(x) - exp(-x)) / 2"
+msgstr ""
+
+#: functions.py:410
+msgid "sinc(x), return the sinc of x. This is given by sin(x) / x."
+msgstr ""
+
+#: functions.py:415
+msgid ""
+"sqrt(x), return the square root of x. This is the value for which the square "
+"equals x. Defined for x >= 0."
+msgstr ""
+
+#: functions.py:420
+msgid "square(x), return x * x"
+msgstr ""
+
+#: functions.py:427
+msgid "sub(x, y), return x - y"
+msgstr ""
+
+#: functions.py:432
+msgid ""
+"tan(x), return the tangent of x. This is the slope of the line from the "
+"origin of the unit circle to the point on the unit circle defined by the "
+"angle x. Given by sin(x) / cos(x)"
+msgstr ""
+"ظا(س), تعمل على إرجاع الظل للقيمة س. هذا هو المنحنى الواصل بين نقطة الأصل "
+"مركز دائرة الوحدة و النقطة الواقعة على دائرة الوحدة المعرفة بالزاوية س. حيث "
+"ظا(س)= جا(س)/جتا(س)"
+
+#: functions.py:439
+msgid "tanh(x), return the hyperbolic tangent of x. Given by sinh(x) / cosh(x)"
+msgstr ""
+
+#: functions.py:444
+msgid ""
+"xor(x, y), logical xor. Returns True if either x is True (and y is False) or "
+"y is True (and x is False), else returns False"
+msgstr ""
+"يعمل على إرجاع صح إذا كانت x صحيحة و y خاطئة, أو y صحيحة و x خاطئة, غير ذلك "
+"يرجع خطأ"
+
+#: layout.py:75
+msgid "Clear"
+msgstr ""
+
+#: layout.py:105 layout.py:145
+msgid "Edit"
+msgstr "تحرر"
+
+#: layout.py:110 layout.py:146
+msgid "Algebra"
+msgstr "الجبر"
+
+#: layout.py:115 layout.py:147
+msgid "Trigonometry"
+msgstr "الدوال المثلثية"
+
+#: layout.py:120 layout.py:148
+msgid "Boolean"
+msgstr "المنطقيات"
+
+#: layout.py:125 layout.py:149
+msgid "Miscellaneous"
+msgstr ""
+
+#: layout.py:178
+msgid "Label:"
+msgstr "ملصق:"
+
+#: layout.py:223
+msgid "All equations"
+msgstr "جميع المعادلات"
+
+#: layout.py:224
+msgid "My equations"
+msgstr "معادلاتي"
+
+#: layout.py:225
+msgid "Show variables"
+msgstr "اظهر المتغيرات"
+
+#. TRANS: multiplication symbol (default: '×')
+#: mathlib.py:82
+msgid "mul_sym"
+msgstr "إشارة_الضرب"
+
+#. TRANS: division symbol (default: '÷')
+#: mathlib.py:87
+msgid "div_sym"
+msgstr "إشارة_القسمة"
+
+#. TRANS: equal symbol (default: '=')
+#: mathlib.py:92
+msgid "equ_sym"
+msgstr ""
+
+#: mathlib.py:216
+msgid "Undefined"
+msgstr "غير معرف"
+
+#: mathlib.py:226
+msgid "Error: unsupported type"
+msgstr "خطأ: نوع غير مدعوم"
+
+#: toolbars.py:53
+msgid "Help"
+msgstr "مساعدة"
+
+#: toolbars.py:121
+msgid "Copy"
+msgstr "نسخ"
+
+#: toolbars.py:122
+msgid "<ctrl>c"
+msgstr ""
+
+#: toolbars.py:126
+msgid "Cut"
+msgstr "قص"
+
+#: toolbars.py:129
+msgid "<ctrl>x"
+msgstr ""
+
+#: toolbars.py:137
+msgid "Paste"
+msgstr "لصق"
+
+#: toolbars.py:147
+msgid "Square"
+msgstr "مربع"
+
+#: toolbars.py:152
+msgid "Square root"
+msgstr "الجذر التربيعي"
+
+#: toolbars.py:157
+msgid "Inverse"
+msgstr ""
+
+#: toolbars.py:164
+msgid "e to the power x"
+msgstr "هـ مرفوعة للقوة س"
+
+#: toolbars.py:169
+msgid "x to the power y"
+msgstr "س مرفوعة للقوة ص"
+
+#: toolbars.py:174
+msgid "Natural logarithm"
+msgstr "اللوغاريتم الطبيعي"
+
+#: toolbars.py:180
+msgid "Factorial"
+msgstr "مضروب"
+
+#: toolbars.py:190
+msgid "Sine"
+msgstr "دالة الجيب"
+
+#: toolbars.py:194
+msgid "Cosine"
+msgstr "دالة جيب التمام"
+
+#: toolbars.py:198
+msgid "Tangent"
+msgstr "دالة الظل"
+
+#: toolbars.py:204
+msgid "Arc sine"
+msgstr "دالة قاطع التمام"
+
+#: toolbars.py:208
+msgid "Arc cosine"
+msgstr "دالة القاطع"
+
+#: toolbars.py:212
+msgid "Arc tangent"
+msgstr "دالة ظل التمام"
+
+#: toolbars.py:218
+msgid "Hyperbolic sine"
+msgstr ""
+
+#: toolbars.py:222
+msgid "Hyperbolic cosine"
+msgstr ""
+
+#: toolbars.py:226
+msgid "Hyperbolic tangent"
+msgstr ""
+
+#: toolbars.py:236
+msgid "Logical and"
+msgstr "'و' المنطق"
+
+#: toolbars.py:240
+msgid "Logical or"
+msgstr "'أو' المنطق"
+
+#: toolbars.py:250
+msgid "Equals"
+msgstr "يساوي"
+
+#: toolbars.py:253
+msgid "Not equals"
+msgstr "لا يساوي"
+
+#: toolbars.py:262
+msgid "Pi"
+msgstr ""
+
+#: toolbars.py:266
+msgid "e"
+msgstr ""
+
+#: toolbars.py:269
+msgid "γ"
+msgstr ""
+
+#: toolbars.py:272
+msgid "φ"
+msgstr ""
+
+#: toolbars.py:279
+#, fuzzy
+msgid "Plot"
+msgstr "ارسم"
+
+#: toolbars.py:286
+msgid "Degrees"
+msgstr "درجة"
+
+#: toolbars.py:287
+msgid "Radians"
+msgstr "رادْيان"
+
+#: toolbars.py:291
+msgid "Degrees / Radians"
+msgstr ""
+
+#: toolbars.py:300
+msgid "Exponent / Scientific notation"
+msgstr ""
+
+#: toolbars.py:310
+msgid "Number of shown digits"
+msgstr ""
+
+#: toolbars.py:320
+msgid "Integer formatting base"
+msgstr ""
+
+#~ msgid "Show history"
+#~ msgstr "اظهر التاريخ"
+
+#~ msgid "Available functions:"
+#~ msgstr "الدوال المتاحة:"
+
+#, python-format
+#~ msgid "level: %d, ofs %d"
+#~ msgstr "مستوى: %d من %d"
+
+#, python-format
+#~ msgid "Invalid number of arguments (%d instead of %d)"
+#~ msgstr "عدد العوامل غير صحيح (%d بدلاً من %d)"
+
+#, python-format
+#~ msgid "function takes %d args"
+#~ msgstr "الدالة تأخذ %d عوامل"
+
+#, python-format
+#~ msgid "Unable to parse argument %d: '%s'"
+#~ msgstr "غير قادر على تحليل العامل %d: '%s'"
+
+#, python-format
+#~ msgid "Function error: %s"
+#~ msgstr "خطأ في الدالة: %s"
+
+#~ msgid "Left parenthesis unexpected"
+#~ msgstr "قوس أيسر غير متوقع"
+
+#~ msgid "Parse error (right parenthesis)"
+#~ msgstr "خطأ تحليلي (قوس أيمن)"
+
+#~ msgid "Right parenthesis unexpected"
+#~ msgstr "قوس أيمن غير متوقع"
+
+#~ msgid "Parse error (right parenthesis, no left_val)"
+#~ msgstr "خطأ تحليلي (قوس أيمن, لا يوجد قيمة على اليسار)"
+
+#~ msgid "Parse error (right parenthesis, no level to close)"
+#~ msgstr "خطأ تحليلي (قوس أيمن, لا يوجد مستوى للإغلاق)"
+
+#~ msgid "Number not expected"
+#~ msgstr "رقم غير متوقع"
+
+#~ msgid "Operator not expected"
+#~ msgstr "إشارة غير متوقعة"
+
+#~ msgid "Parse error: number or variable expected"
+#~ msgstr "خطأ تحليلي: رقم أو متغير متوقع"
+
+#~ msgid "Number or variable expected"
+#~ msgstr "رقم أو متغير متوقع"
+
+#~ msgid "Invalid operator"
+#~ msgstr "إشارة غير صحيحة"
+
+#~ msgid "Operator expected"
+#~ msgstr "إشارة متوقعة"
+
+#~ msgid "_parse(): returning None"
+#~ msgstr "_parse(): تعيد None"
+
+#~ msgid "functions(), return a list of all the functions that are defined"
+#~ msgstr "الدالات(), يعمل على إرجاع جميع الدالات المعرفة"
+
+#~ msgid "operators"
+#~ msgstr "الإشارات"
+
+#~ msgid "operators(), return a list of the operators that are defined"
+#~ msgstr "الإشارات(), يعمل على ارجاع جميع الإشارات المعرفة"
+
+#~ msgid "plot"
+#~ msgstr "ارسم"
+
+#~ msgid "square(x), return the square of x. Given by x * x"
+#~ msgstr "مربع(س), تعمل على إرجاع مربع س, معطى بالمعادلة س*س"
+
+#~ msgid "test"
+#~ msgstr "تجربة"
+
+#~ msgid "variables(), return a list of the variables that are currently defined"
+#~ msgstr "المتغيرات(), تعمل على إرجاع قائمة بالمتغيرات المعرفة حالياً بالبرنامج "
+
+#~ msgid "Constants"
+#~ msgstr "الثوابت"
+
+#~ msgid "Format"
+#~ msgstr "التصميم"

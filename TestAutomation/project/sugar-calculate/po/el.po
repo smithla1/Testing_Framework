@@ -1,0 +1,971 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 00:33-0400\n"
+"PO-Revision-Date: 2012-09-08 11:01+0200\n"
+"Last-Translator: Yannis <kiolalis@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Calculate"
+msgstr "Υπολογισμός"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"This is the place to get the answer to a quick problem, but that is not the "
+"limit! You can also explore Algebra, Trigonometry, Boolean and more!"
+msgstr ""
+
+#: astparser.py:40
+msgid ""
+"plot(eqn, var=-a..b), plot the equation 'eqn' with the variable 'var' in the "
+"range from a to b"
+msgstr ""
+"σχδ(συν, μετ=-α..β), σχεδιάζει τη συνάρτηση 'συν' με μεταβλητή 'μετ' στο "
+"διάστημα [α,β]"
+
+#: astparser.py:59
+#, python-format
+msgid "Parse error at %d"
+msgstr "Σφάλμα στη σύνταξη του %d"
+
+#: astparser.py:71 astparser.py:83
+#, python-format
+msgid "Error at %d"
+msgstr "Σφάλμα στο %d"
+
+#: astparser.py:94
+msgid "This is just a test topic, use help(index) for the index"
+msgstr ""
+"Αυτό είναι ένα δοκιμαστικό θέμα, χρησιμοποίησε βοήθεια(περιεχόμενα) για τα "
+"περιεχόμενα"
+
+#: astparser.py:106
+msgid "Use help(test) for help about 'test', or help(index) for the index"
+msgstr ""
+"Δοκίμασε βοήθεια(δοκιμή) για βοήθεια σχετικά με το 'δοκιμή', ή "
+"βοήθεια(περιεχόμενα) για τα περιεχόμενα"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:109
+msgid "index"
+msgstr "ευρετήριο"
+
+#: astparser.py:109
+msgid "topics"
+msgstr "θέματα"
+
+#: astparser.py:110
+msgid "Topics"
+msgstr "Θέματα"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:118
+msgid "variables"
+msgstr "μεταβλητές"
+
+#: astparser.py:119
+msgid "Variables"
+msgstr "Μεταβλητές"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:125
+msgid "functions"
+msgstr "συναρτήσεις"
+
+#: astparser.py:126
+msgid "Functions"
+msgstr "Συναρτήσεις"
+
+#: astparser.py:135
+#, python-format
+msgid "No help about '%s' available, use help(index) for the index"
+msgstr ""
+"Δεν υπάρχει βοήθεια για το(ν) / τη(ν) '%s', χρησιμοποίησε "
+"βοήθεια(περιεχόμενα) για τα περιεχόμενα"
+
+#: astparser.py:459
+msgid "help"
+msgstr "βοήθεια"
+
+#: astparser.py:466
+msgid "Recursion detected"
+msgstr "Εντοπίστηκε μια αναδρομή"
+
+#: astparser.py:490
+#, python-format
+msgid "Function '%s' not defined"
+msgstr "Η συνάρτηση '%s' δεν είναι καθορισμένη"
+
+#: astparser.py:492
+#, python-format
+msgid "Variable '%s' not defined"
+msgstr "Η μεταβλητή '%s' δεν εχει καθοριστεί"
+
+#: astparser.py:502
+#, python-format
+msgid "Attribute '%s' does not exist"
+msgstr "Η ιδιότητα '%s' δεν υπάρχει"
+
+#: astparser.py:596
+msgid "Parse error"
+msgstr "Λάθος ανάλυσης"
+
+#: astparser.py:601
+msgid "Multiple statements not supported"
+msgstr "Πολλαπλές δηλώσεις δεν υποστηρίζονται"
+
+#: astparser.py:625
+msgid "Internal error"
+msgstr "Εσωτερικό σφάλμα"
+
+#: calculate.py:109
+#, python-format
+msgid "Equation.parse() string invalid (%s)"
+msgstr "Equation.parse() λάθος συμβολοσειρά (%s)"
+
+#: calculate.py:483
+msgid "Can not assign label: will cause recursion"
+msgstr "Δεν μπορεί να οριστεί ετικέτα: θα προκληθεί αναδρομή"
+
+#: calculate.py:571
+#, python-format
+msgid "Writing to journal (%s)"
+msgstr "Εγγραφή στο ημερολόγιο (%s)"
+
+#: calculate.py:865
+msgid "button_pressed(): invalid type"
+msgstr "button_pressed(): μη αποδεκτός τύπος"
+
+#: functions.py:35
+msgid "add"
+msgstr "προσθήκη"
+
+#: functions.py:36
+msgid "abs"
+msgstr ""
+
+# TRANS: It is possible to translate commands. However, I would highly
+# recommend NOT doing so for mathematical functions like cos(). help(),
+# functions() etc should be translated.
+#: functions.py:37
+msgid "acos"
+msgstr "τοξσυν"
+
+# TRANS: It is possible to translate commands. However, I would highly
+# recommend NOT doing so for mathematical functions like cos(). help(),
+# functions() etc should be translated.
+#: functions.py:38
+#, fuzzy
+msgid "acosh"
+msgstr "τοξσυν"
+
+#: functions.py:39
+msgid "asin"
+msgstr "τοξημ"
+
+#: functions.py:40
+#, fuzzy
+msgid "asinh"
+msgstr "τοξημ"
+
+#: functions.py:41
+msgid "atan"
+msgstr "τοξεφ"
+
+#: functions.py:42
+#, fuzzy
+msgid "atanh"
+msgstr "τοξεφ"
+
+#: functions.py:43
+msgid "and"
+msgstr "και"
+
+#: functions.py:44
+msgid "b10bin"
+msgstr ""
+
+#: functions.py:45
+msgid "ceil"
+msgstr ""
+
+#: functions.py:46
+msgid "cos"
+msgstr "συν"
+
+#: functions.py:47
+msgid "cosh"
+msgstr "συνυ"
+
+#: functions.py:48
+msgid "div"
+msgstr ""
+
+#: functions.py:49
+msgid "gcd"
+msgstr ""
+
+#: functions.py:50
+msgid "exp"
+msgstr "εκθ"
+
+#: functions.py:51
+#, fuzzy
+msgid "factorial"
+msgstr "Παραγοντικό"
+
+#: functions.py:52
+msgid "fac"
+msgstr "πργ"
+
+#: functions.py:53
+#, fuzzy
+msgid "factorize"
+msgstr "Παραγοντικό"
+
+#: functions.py:54
+msgid "floor"
+msgstr ""
+
+#: functions.py:55
+msgid "inv"
+msgstr ""
+
+#: functions.py:56
+msgid "is_int"
+msgstr ""
+
+#: functions.py:57
+msgid "ln"
+msgstr "λογ"
+
+#: functions.py:58
+msgid "log10"
+msgstr ""
+
+#: functions.py:59
+msgid "mul"
+msgstr ""
+
+#: functions.py:60
+msgid "or"
+msgstr "ή"
+
+#: functions.py:61
+msgid "rand_float"
+msgstr ""
+
+#: functions.py:62
+msgid "rand_int"
+msgstr ""
+
+#: functions.py:63
+msgid "round"
+msgstr ""
+
+#: functions.py:64
+msgid "sin"
+msgstr "ημ"
+
+#: functions.py:65
+msgid "sinh"
+msgstr "ημυ"
+
+#: functions.py:66
+#, fuzzy
+msgid "sinc"
+msgstr "ημ"
+
+#: functions.py:67
+msgid "sqrt"
+msgstr "τ_ρ"
+
+#: functions.py:68
+msgid "sub"
+msgstr ""
+
+# τετρά - γωνο (τ_γ): Πιστεύω ότι στον κώδικα δε θα ήταν λογικό να βάλεις τετράγωνο(x) από το να γράψεις x*x το τ_γ(x) είναι πιο σύντομο.
+#: functions.py:69
+msgid "square"
+msgstr "τετρ"
+
+#: functions.py:70
+msgid "tan"
+msgstr "εφ"
+
+#: functions.py:71
+msgid "tanh"
+msgstr "εφυ"
+
+#: functions.py:72
+msgid "xor"
+msgstr "είτε"
+
+#: functions.py:112
+msgid "abs(x), return absolute value of x, which means -x for x < 0"
+msgstr ""
+
+#: functions.py:117
+msgid ""
+"acos(x), return the arc cosine of x. This is the angle for which the cosine "
+"is x. Defined for -1 <= x < 1"
+msgstr ""
+"Το τοξσυν(x) επιστρέφει το τόξο του συνημιτόνου του x. Αυτή είναι η γωνία "
+"για την οποία το συνημίτονο είναι x. Ορίζεται στο -1 <= x < 1"
+
+#: functions.py:123
+msgid ""
+"acosh(x), return the arc hyperbolic cosine of x. This is the value y for "
+"which the hyperbolic cosine equals x."
+msgstr ""
+
+#: functions.py:129
+msgid ""
+"And(x, y), logical and. Returns True if x and y are True, else returns False"
+msgstr ""
+"Το Και(x, y) είναι το λογικό \"και\". Επιστρέφει 'Αληθές' αν x και y είναι "
+"αληθή, διαφορετικά επιστρέφει 'Ψευδές'"
+
+#: functions.py:136
+msgid "add(x, y), return x + y"
+msgstr ""
+
+#: functions.py:141
+#, fuzzy
+msgid ""
+"asin(x), return the arc sine of x. This is the angle for which the sine is "
+"x. Defined for -1 <= x <= 1"
+msgstr ""
+"Το τοξημ(x) επιστρέφει το τόξο του ημιτόνου του x. Αυτή είναι η γωνία για "
+"την οποία το ημίτονο είναι x. Ορίζεται στο -1 <= x < 1"
+
+#: functions.py:147
+msgid ""
+"asinh(x), return the arc hyperbolic sine of x. This is the value y for which "
+"the hyperbolic sine equals x."
+msgstr ""
+
+#: functions.py:153
+msgid ""
+"atan(x), return the arc tangent of x. This is the angle for which the "
+"tangent is x. Defined for all x"
+msgstr ""
+"Το τοξεφ(x) επιστρέφει το τόξο της εφαπτόμενης του x. Αυτή είναι η γωνία για "
+"την οποία η εφαπτόμενη είναι x. Ορίζεται για κάθε x"
+
+#: functions.py:159
+msgid ""
+"atanh(x), return the arc hyperbolic tangent of x. This is the value y for "
+"which the hyperbolic tangent equals x."
+msgstr ""
+
+#: functions.py:171
+msgid "Number does not look binary in base 10"
+msgstr ""
+
+#: functions.py:178
+msgid ""
+"b10bin(x), interpret a number written in base 10 as binary, e.g.: b10bin"
+"(10111) = 23,"
+msgstr ""
+
+#: functions.py:183
+msgid "ceil(x), return the smallest integer larger than x."
+msgstr ""
+
+#: functions.py:188
+msgid ""
+"cos(x), return the cosine of x. This is the x-coordinate on the unit circle "
+"at the angle x"
+msgstr ""
+"Το συν(x) επιστρέφει το συνημίτονο του x. Αυτή είναι η οριζόντια "
+"συντεταγμένη του τριγωνομετρικού κύκλου της γωνίας x"
+
+#: functions.py:194
+msgid ""
+"cosh(x), return the hyperbolic cosine of x. Given by (exp(x) + exp(-x)) / 2"
+msgstr ""
+"Το συνυ(x) επιστρέφει το υπερβολικό συνημίτονο του x. Δίνεται από τον τύπο "
+"(εκθ(x) + εκθ(-x)) / 2"
+
+#: functions.py:198
+msgid "Can not divide by zero"
+msgstr ""
+
+#: functions.py:219
+msgid "Invalid argument"
+msgstr ""
+
+#: functions.py:222
+msgid ""
+"gcd(a, b), determine the greatest common denominator of a and b. For "
+"example, the biggest factor that is shared by the numbers 15 and 18 is 3."
+msgstr ""
+
+#: functions.py:227
+msgid "exp(x), return the natural exponent of x. Given by e^x"
+msgstr ""
+"Η εκθ(x) επιστρέφει τη δύναμη x του νεπέριου αριθμού e. Δίνεται από τον τύπο "
+"e^x"
+
+#: functions.py:231
+msgid "Factorial only defined for integers"
+msgstr ""
+
+#: functions.py:244
+#, fuzzy
+msgid ""
+"factorial(n), return the factorial of n. Given by n * (n - 1) * (n - 2) * ..."
+msgstr ""
+"Το παρ(x), επιστρέφει το παραγοντικού του x. Δίνεται από τον τύπο x * (x - "
+"1) * (x - 2) * ..."
+
+#: functions.py:250
+msgid "fac(x), return the factorial of x. Given by x * (x - 1) * (x - 2) * ..."
+msgstr ""
+"Το παρ(x), επιστρέφει το παραγοντικού του x. Δίνεται από τον τύπο x * (x - "
+"1) * (x - 2) * ..."
+
+#: functions.py:283
+msgid "floor(x), return the largest integer smaller than x."
+msgstr ""
+
+#: functions.py:287
+msgid "inv(x), return the inverse of x, which is 1 / x"
+msgstr ""
+
+#: functions.py:309 functions.py:318
+msgid "Logarithm(x) only defined for x > 0"
+msgstr ""
+
+#: functions.py:311
+msgid ""
+"ln(x), return the natural logarithm of x. This is the value for which the "
+"exponent exp() equals x. Defined for x >= 0."
+msgstr ""
+"Το λογ(x), επιστρέφει το φυσικό λογάριθμο του x. Αυτή είναι η τιμή όπου ο "
+"εκθέτης της εκθ() ισούται με x. Ορίζεται για x >= 0."
+
+#: functions.py:320
+msgid ""
+"log10(x), return the base 10 logarithm of x. This is the value y for which "
+"10^y equals x. Defined for x >= 0."
+msgstr ""
+
+#: functions.py:327
+msgid "Can only calculate x modulo <integer>"
+msgstr ""
+
+#: functions.py:329
+msgid ""
+"mod(x, y), return the modulus of x with respect to y. This is the remainder "
+"after dividing x by y."
+msgstr ""
+
+#: functions.py:337
+msgid "mul(x, y), return x * y"
+msgstr ""
+
+#: functions.py:341
+msgid "negate(x), return -x"
+msgstr ""
+
+# Πιστεύω ότι από την εμπειρία μου σαν προγραμματιστής για να δόσεις στον άλλο να καταλάβει την έννοια του "και" ή του "ή" είναι να του πεις μόνο 1 περίπτωση για το καθένα. Για το ΚΑΙ είναι το Αληθής και για το Ή είναι το Ψευδής που εμφανίζεται μόνο 1 φορά στον πίνακα αληθείας.
+#: functions.py:346
+#, fuzzy
+msgid ""
+"Or(x, y), logical or. Returns True if x or y is True, else returns False"
+msgstr ""
+"Το ή(x, y) είναι το λογικό \"ή\" (Διάζευξη). Επιστρέφει Ψευδής αν x και y "
+"είναι Ψευδής, διαφορετικά επιστρέφει Αληθής"
+
+#: functions.py:361
+msgid "pow(x, y), return x to the power y (x**y)"
+msgstr ""
+
+#: functions.py:366
+msgid "rand_float(), return a random floating point number between 0.0 and 1.0"
+msgstr ""
+
+#: functions.py:371
+msgid ""
+"rand_int([<maxval>]), return a random integer between 0 and <maxval>. "
+"<maxval> is an optional argument and is set to 65535 by default."
+msgstr ""
+
+#: functions.py:376
+msgid "round(x), return the integer nearest to x."
+msgstr ""
+
+#: functions.py:382 functions.py:390
+msgid "Bitwise operations only apply to integers"
+msgstr ""
+
+#: functions.py:384
+msgid "shift_left(x, y), shift x by y bits to the left (multiply by 2 per bit)"
+msgstr ""
+
+#: functions.py:392
+msgid "shift_right(x, y), shift x by y bits to the right (divide by 2 per bit)"
+msgstr ""
+
+#: functions.py:397
+msgid ""
+"sin(x), return the sine of x. This is the y-coordinate on the unit circle at "
+"the angle x"
+msgstr ""
+"Το ημ(x) επιστρέφει το ημίτονο του x. Αυτή είναι η κάθετη συντεταγμένη του "
+"τριγωνομετρικού κύκλου της γωνίας x"
+
+#: functions.py:403
+msgid ""
+"sinh(x), return the hyperbolic sine of x. Given by (exp(x) - exp(-x)) / 2"
+msgstr ""
+"Το ημυ(x) επιστρέφει το υπερβολικό ημίτονο του x. Δίνεται από τον τύπο "
+"(εκθ(x) - εκθ(-x)) / 2"
+
+#: functions.py:410
+msgid "sinc(x), return the sinc of x. This is given by sin(x) / x."
+msgstr ""
+
+#: functions.py:415
+msgid ""
+"sqrt(x), return the square root of x. This is the value for which the square "
+"equals x. Defined for x >= 0."
+msgstr ""
+"Η τ_ρ(x) επιστρέφει την τετραγωνική ρίζα του x. Αυτή είναι η τιμή της οποίας "
+"το τετράγωνο ισούται με x. Ορίζεται για x >= 0."
+
+#: functions.py:420
+msgid "square(x), return x * x"
+msgstr ""
+
+#: functions.py:427
+msgid "sub(x, y), return x - y"
+msgstr ""
+
+#: functions.py:432
+msgid ""
+"tan(x), return the tangent of x. This is the slope of the line from the "
+"origin of the unit circle to the point on the unit circle defined by the "
+"angle x. Given by sin(x) / cos(x)"
+msgstr ""
+"Η εφ(x) επιστρέφει την εφαπτόμενη του x. Είναι ένα ευθύγραμμο τμήμα που "
+"ξεκινάει από την τομή του άξονα του κύκλου με την περιφέρεια του κύκλου προς "
+"το σημείο που τέμνεται με την ακτίνα γωνίας x. Δίνεται από τον τύπο ημ(x) / "
+"συν(x)"
+
+#: functions.py:439
+#, fuzzy
+msgid "tanh(x), return the hyperbolic tangent of x. Given by sinh(x) / cosh(x)"
+msgstr ""
+"Η εφυ(x) επιστρέφει την υπερβολική εφαπτόμενη του x. Δίνεται από τον τύπο "
+"ημυ(x) / συνυ(x)"
+
+#: functions.py:444
+msgid ""
+"xor(x, y), logical xor. Returns True if either x is True (and y is False) or "
+"y is True (and x is False), else returns False"
+msgstr ""
+"Το είτε(x,y) είναι τo λογικό \"είτε\" (Αποκλειστική Διάζευξη): Επιστρέφει "
+"Ψευδής όταν η τιμή του x ισούται με την τιμή του y διαφορετικά επιστρέφει "
+"Αληθής"
+
+#: layout.py:75
+msgid "Clear"
+msgstr "Καθαρισμός"
+
+#: layout.py:105 layout.py:145
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: layout.py:110 layout.py:146
+msgid "Algebra"
+msgstr "Άλγεβρα"
+
+#: layout.py:115 layout.py:147
+msgid "Trigonometry"
+msgstr "Τριγωνομετρία"
+
+#: layout.py:120 layout.py:148
+msgid "Boolean"
+msgstr "Λογική"
+
+#: layout.py:125 layout.py:149
+msgid "Miscellaneous"
+msgstr "Διάφορα"
+
+#: layout.py:178
+msgid "Label:"
+msgstr "Ετικέτα:"
+
+#: layout.py:223
+msgid "All equations"
+msgstr "Όλες οι εξισώσεις"
+
+#: layout.py:224
+msgid "My equations"
+msgstr "Οι εξισώσεις μου"
+
+#: layout.py:225
+msgid "Show variables"
+msgstr "Εμφάνιση μεταβλητών"
+
+#. TRANS: multiplication symbol (default: '×')
+#: mathlib.py:82
+msgid "mul_sym"
+msgstr "*"
+
+# Σύμβολο διαίρεσης (προκαθορισμένο: '/')
+#. TRANS: division symbol (default: '÷')
+#: mathlib.py:87
+msgid "div_sym"
+msgstr "/"
+
+#. TRANS: equal symbol (default: '=')
+#: mathlib.py:92
+msgid "equ_sym"
+msgstr ""
+
+#: mathlib.py:216
+msgid "Undefined"
+msgstr "Ακαθόριστο"
+
+#: mathlib.py:226
+msgid "Error: unsupported type"
+msgstr "Σφάλμα: μη υποστηριζόμενος τύπος"
+
+#: toolbars.py:53
+msgid "Help"
+msgstr "Βοήθεια"
+
+#: toolbars.py:121
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: toolbars.py:122
+msgid "<ctrl>c"
+msgstr ""
+
+#: toolbars.py:126
+msgid "Cut"
+msgstr "Αποκοπή"
+
+#: toolbars.py:129
+msgid "<ctrl>x"
+msgstr ""
+
+#: toolbars.py:137
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: toolbars.py:147
+msgid "Square"
+msgstr "Τετράγωνο"
+
+#: toolbars.py:152
+msgid "Square root"
+msgstr "Τετραγωνική Ρίζα"
+
+#: toolbars.py:157
+msgid "Inverse"
+msgstr "Αντιστροφή"
+
+#: toolbars.py:164
+msgid "e to the power x"
+msgstr "To e υψωμένο στη δύναμη x"
+
+#: toolbars.py:169
+msgid "x to the power y"
+msgstr "Το x υψωμένο στη δύναμη y"
+
+#: toolbars.py:174
+msgid "Natural logarithm"
+msgstr "Φυσικός Λογάριθμος"
+
+#: toolbars.py:180
+msgid "Factorial"
+msgstr "Παραγοντικό"
+
+#: toolbars.py:190
+msgid "Sine"
+msgstr "Ημίτονο"
+
+#: toolbars.py:194
+msgid "Cosine"
+msgstr "Συνημίτονο"
+
+#: toolbars.py:198
+msgid "Tangent"
+msgstr "Εφαπτομένη"
+
+#: toolbars.py:204
+msgid "Arc sine"
+msgstr "Τόξο Ημιτόνου"
+
+#: toolbars.py:208
+msgid "Arc cosine"
+msgstr "Τόξο Συνημιτόνου"
+
+#: toolbars.py:212
+msgid "Arc tangent"
+msgstr "Τόξο Εφαπτομένης"
+
+#: toolbars.py:218
+msgid "Hyperbolic sine"
+msgstr "Υπερβολικό ημίτονο"
+
+#: toolbars.py:222
+msgid "Hyperbolic cosine"
+msgstr "Υπερβολικό συνημίτονο"
+
+#: toolbars.py:226
+msgid "Hyperbolic tangent"
+msgstr "Υπερβολική εφαπτομένη"
+
+#: toolbars.py:236
+msgid "Logical and"
+msgstr "Λογικό \"και\""
+
+#: toolbars.py:240
+msgid "Logical or"
+msgstr "Λογικό \"ή\""
+
+#: toolbars.py:250
+msgid "Equals"
+msgstr "Ισότητα"
+
+#: toolbars.py:253
+msgid "Not equals"
+msgstr "Ανισότητα"
+
+#: toolbars.py:262
+msgid "Pi"
+msgstr "π"
+
+#: toolbars.py:266
+msgid "e"
+msgstr "e"
+
+#: toolbars.py:269
+msgid "γ"
+msgstr ""
+
+#: toolbars.py:272
+msgid "φ"
+msgstr ""
+
+#: toolbars.py:279
+msgid "Plot"
+msgstr "Σχεδιασμός"
+
+#: toolbars.py:286
+msgid "Degrees"
+msgstr "Μοίρες"
+
+#: toolbars.py:287
+msgid "Radians"
+msgstr "Ακτίνια"
+
+#: toolbars.py:291
+#, fuzzy
+msgid "Degrees / Radians"
+msgstr "Μοίρες / ακτίνια"
+
+#: toolbars.py:300
+msgid "Exponent / Scientific notation"
+msgstr "Εκθέτης / Επιστημονικός συμβολισμός"
+
+#: toolbars.py:310
+msgid "Number of shown digits"
+msgstr "Αριθμός εμφανιζόμενων ψηφίων"
+
+#: toolbars.py:320
+msgid "Integer formatting base"
+msgstr "Βάση μορφοποίησης ακεραίου"
+
+#~ msgid "Change view between own and all equations"
+#~ msgstr "Αλλαγή μεταξύ των δικών μου και όλων των εξισώσεων"
+
+#~ msgid "Show history"
+#~ msgstr "Εμφάνιση ιστορικού"
+
+#~ msgid "Change view between history and variables"
+#~ msgstr "Αλλαγή προβολής μεταξύ ιστορικού και μεταβλητών"
+
+#~ msgid "Enter"
+#~ msgstr "Εισαγωγή"
+
+#~ msgid "Available functions:"
+#~ msgstr "Διαθέσιμες συναρτήσεις:"
+
+#, python-format
+#~ msgid "level: %d, ofs %d"
+#~ msgstr "επίπεδο: %d, μετ. %d"
+
+#, python-format
+#~ msgid "Invalid number of arguments (%d instead of %d)"
+#~ msgstr "Εσφαλμένος αριθμός παραμέτρων (%d αντί %d)"
+
+#, python-format
+#~ msgid "function takes %d args"
+#~ msgstr "η συνάρτηση δέχεται %d παραμέτρους"
+
+#, python-format
+#~ msgid "Unable to parse argument %d: '%s'"
+#~ msgstr "Αδυναμία ανάλυσης παραμέτρου %d: '%s'"
+
+#, python-format
+#~ msgid "Function error: %s"
+#~ msgstr "Σφάλμα συνάρτησης: %s"
+
+#~ msgid "Left parenthesis unexpected"
+#~ msgstr "Μη αναμενόμενη αριστερή παρένθεση"
+
+#~ msgid "Parse error (right parenthesis)"
+#~ msgstr "Σφάλμα ανάλυσης (δεξιά παρένθεση)"
+
+#~ msgid "Right parenthesis unexpected"
+#~ msgstr "Μη αναμενόμενη δεξιά παρένθεση"
+
+#~ msgid "Parse error (right parenthesis, no left_val)"
+#~ msgstr "Σφάλμα ανάλυσης (δεξιά παρένθεση, δεν υπάρχει αριστερή_τιμή)"
+
+#~ msgid "Parse error (right parenthesis, no level to close)"
+#~ msgstr "Σφάλμα ανάλυσης (δεξιά παρένθεση, δεν υπάρχει επίπεδο για να κλείσει)"
+
+#~ msgid "Number not expected"
+#~ msgstr "Μη αναμενόμενος αριθμός"
+
+#~ msgid "Operator not expected"
+#~ msgstr "Μη αναμενόμενος τελεστής"
+
+#~ msgid "Parse error: number or variable expected"
+#~ msgstr "Σφάλμα ανάλυσης: περίμενα αριθμό ή μεταβλητή"
+
+#~ msgid "Number or variable expected"
+#~ msgstr "Περίμενα αριθμό ή μεταβλητή"
+
+#~ msgid "Invalid operator"
+#~ msgstr "Μη αποδεκτός τελεστής"
+
+#~ msgid "Operator expected"
+#~ msgstr "Αναμενόταν τελεστής"
+
+#~ msgid "_parse(): returning None"
+#~ msgstr "_parse(): επιστρέφει Κενό"
+
+#~ msgid "functions(), return a list of all the functions that are defined"
+#~ msgstr ""
+#~ "συναρτήσεις(), επιστρέφει τη λίστα όλων των συναρτήσεων που έχουν οριστεί"
+
+#~ msgid "operators"
+#~ msgstr "τελεστές"
+
+#~ msgid "operators(), return a list of the operators that are defined"
+#~ msgstr "τελεστές(), επιστρέφει μια λίστα από τους τελεστές που έχουν οριστεί"
+
+#~ msgid "plot"
+#~ msgstr "σχδ"
+
+#~ msgid "square(x), return the square of x. Given by x * x"
+#~ msgstr "Το τετρ(x), επιστρέφει το τετράγωνο του x. Δίνεται από τον τύπο x * x"
+
+#~ msgid "test"
+#~ msgstr "δοκιμή"
+
+#~ msgid "variables(), return a list of the variables that are currently defined"
+#~ msgstr "μεταβλητές(), επιστροφή λίστας μεταβλητών που είναι ήδη καθορισμένες"
+
+#~ msgid "Constants"
+#~ msgstr "Σταθερές"
+
+#~ msgid "Format"
+#~ msgstr "Μορφή"
+
+#, python-format
+#~ msgid "Reading from journal (%s)"
+#~ msgstr "Ανάγνωση από το ημερολόγιο (%s)"
+
+# Αδυναμία να καθοριστεί έκδοση
+#~ msgid "Unable to determine version"
+#~ msgstr "Αδυναμία καθορισμού της έκδοσης"
+
+#, python-format
+#~ msgid "Reading journal entry (version %s)"
+#~ msgstr "Ανάγνωση καταχώρησης ημερολογίου (έκδοση %s)"
+
+#, python-format
+#, fuzzy
+#~ msgid "State line invalid (%s)"
+#~ msgstr "Μή αποδεκτή γραμμή οριοθέτησης"
+
+#, python-format
+#~ msgid "Unable to read journal entry, unknown version (%s)"
+#~ msgstr "Αδυναμία ανάγνωσης καταχώρησης ημερολογίου, άγνωστη έκδοση (%s)"
+
+#~ msgid "help_var"
+#~ msgstr "βοηθ_μεταβλητή"
+
+#~ msgid "help_acos"
+#~ msgstr "βοηθ_τοξσυν"
+
+#~ msgid "help_asin"
+#~ msgstr "βοηθ_τοξημ"
+
+#~ msgid "help_cos"
+#~ msgstr "βοηθ_συν"
+
+#~ msgid "help_exp"
+#~ msgstr "βοηθ_εκθ"
+
+#~ msgid "help_functions"
+#~ msgstr "βοηθ_συναρτήσεις"
+
+#~ msgid "help_operators"
+#~ msgstr "βοηθ_τελεστές"
+
+#~ msgid "help_plot"
+#~ msgstr "βοηθ_σχέδιο"
+
+#~ msgid "help_sin"
+#~ msgstr "βοηθ_ημ"
+
+#~ msgid "help_sqrt"
+#~ msgstr "βοηθ_ρίζα"
+
+#~ msgid "help_test"
+#~ msgstr "βοηθ_δοκιμή"
+
+#~ msgid "help_variables"
+#~ msgstr "βοηθ_μεταβλητές"
+
+#~ msgid "help_usage"
+#~ msgstr "βοηθ_χρήση"
+
+#~ msgid "thousand_sep"
+#~ msgstr "διαχ_χιλιάδων"
+
+#~ msgid "fraction_sep"
+#~ msgstr "υποδιαστολή"

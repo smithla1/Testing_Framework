@@ -1,0 +1,14 @@
+Test Case ID: 3
+
+Requirement being tested:
+    Accurate multiplication
+
+Component being tested:
+    Sugar labs calculator - functions.py
+    Path to file: TestAutomation/project/sugar-calculate/functions.py
+
+Method being tested: mul(a, b)
+
+Test input(s) including command-line arguments: 15, -5
+
+Expected outcome(s): -75

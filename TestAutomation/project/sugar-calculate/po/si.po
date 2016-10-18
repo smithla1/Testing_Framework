@@ -1,0 +1,885 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# translation of calculate-activity.po to Sinhala
+# Rashan Anushka <rashan.uoc@gmail.com>, 2008.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+msgid ""
+msgstr ""
+"Project-Id-Version: calculate-activity\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-08 00:33-0400\n"
+"PO-Revision-Date: 2012-02-03 09:40+0200\n"
+"Last-Translator: Danishka Navin <danishka@gmail.com>\n"
+"Language-Team: Sinhala <si@li.org>\n"
+"Language: si\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+
+#. TRANS: "name" option from activity.info file
+msgid "Calculate"
+msgstr "ගණනය කරන්න"
+
+#. TRANS: "summary" option from activity.info file
+#. TRANS: "description" option from activity.info file
+msgid ""
+"This is the place to get the answer to a quick problem, but that is not the "
+"limit! You can also explore Algebra, Trigonometry, Boolean and more!"
+msgstr ""
+
+#: astparser.py:40
+msgid ""
+"plot(eqn, var=-a..b), plot the equation 'eqn' with the variable 'var' in the "
+"range from a to b"
+msgstr ""
+"plot(eqn, var=-a..b), 'eqn' සමීකරණය 'var' විචල්‍යයන් සමඟ a සිට b දක්වා වූ "
+"පරාසයේ අඳියි"
+
+#: astparser.py:59
+#, python-format
+msgid "Parse error at %d"
+msgstr "%d හි ව්‍යාකරණ විග්‍රහ කිරීමේ දෝෂයක්"
+
+#: astparser.py:71 astparser.py:83
+#, python-format
+msgid "Error at %d"
+msgstr "%d හි දෝෂයකි"
+
+#: astparser.py:94
+msgid "This is just a test topic, use help(index) for the index"
+msgstr ""
+"මෙය හුදෙක් පරීක්ෂණාත්මක මාතෘකාවක් පමණි, සුචිය සඳහා help(index) භාවිතා කරන්න"
+
+#: astparser.py:106
+msgid "Use help(test) for help about 'test', or help(index) for the index"
+msgstr ""
+"'test' ගැන උදව් සඳහා help(test) හෝ index ගැන උදව් සඳහා help(index) භාවිතා "
+"කරන්න"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:109
+msgid "index"
+msgstr "සුචිය"
+
+#: astparser.py:109
+msgid "topics"
+msgstr "මාතෘකා"
+
+#: astparser.py:110
+msgid "Topics"
+msgstr "මාතෘකා"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:118
+msgid "variables"
+msgstr "විචල්‍යයන්"
+
+#: astparser.py:119
+msgid "Variables"
+msgstr "විචල්‍යයන්"
+
+#. TRANS: This command is descriptive, so can be translated
+#: astparser.py:125
+msgid "functions"
+msgstr "functions"
+
+#: astparser.py:126
+msgid "Functions"
+msgstr "ක්‍රියා"
+
+#: astparser.py:135
+#, python-format
+msgid "No help about '%s' available, use help(index) for the index"
+msgstr "'%s' සම්බන්ධයෙන්  උදව් නොපවතී,සුචිය සඳහා  help(index)භාවිතා කරන්නx"
+
+#: astparser.py:459
+msgid "help"
+msgstr "උදව්"
+
+#: astparser.py:466
+msgid "Recursion detected"
+msgstr "නැවත නැවත සිදුවීම හඳුනාගන්නා ලදි"
+
+#: astparser.py:490
+#, python-format
+msgid "Function '%s' not defined"
+msgstr "'%s' ක්‍රියාවලිය අර්ථදක්වා නැත"
+
+#: astparser.py:492
+#, python-format
+msgid "Variable '%s' not defined"
+msgstr "'%s' විචල්‍ය අර්ථදක්වා නැත"
+
+#: astparser.py:502
+#, python-format
+msgid "Attribute '%s' does not exist"
+msgstr "'%s' විස්තරකය නොපවතී"
+
+#: astparser.py:596
+msgid "Parse error"
+msgstr "විශ්ලේෂණ දෝෂයකි"
+
+#: astparser.py:601
+msgid "Multiple statements not supported"
+msgstr "බහු ප්‍රකාශන සහය දක්වන්නේ නැත"
+
+#: astparser.py:625
+msgid "Internal error"
+msgstr "අභ්‍යන්තර දෝෂය"
+
+#: calculate.py:109
+#, python-format
+msgid "Equation.parse() string invalid (%s)"
+msgstr "Equation.parse() අනුලකුණුවැල වලංගු නොවේ (%s)"
+
+#: calculate.py:483
+msgid "Can not assign label: will cause recursion"
+msgstr "ලේබලයක් ආදේශ කිරීමට නොහැක: නැවත නැවත සිදු කිරීමක් වනු ඇත"
+
+#: calculate.py:571
+#, python-format
+msgid "Writing to journal (%s)"
+msgstr "ජ'නලයට ලියවේ (%s)"
+
+#: calculate.py:865
+msgid "button_pressed(): invalid type"
+msgstr "button_pressed(): වලංගු නොවන වර්ගයකි"
+
+#: functions.py:35
+msgid "add"
+msgstr "එක් කරන්න"
+
+#: functions.py:36
+msgid "abs"
+msgstr "abs"
+
+#: functions.py:37
+msgid "acos"
+msgstr "acos"
+
+#: functions.py:38
+msgid "acosh"
+msgstr "acosh"
+
+#: functions.py:39
+msgid "asin"
+msgstr "asin"
+
+#: functions.py:40
+msgid "asinh"
+msgstr "asinh"
+
+#: functions.py:41
+msgid "atan"
+msgstr "atan"
+
+#: functions.py:42
+msgid "atanh"
+msgstr "atanh"
+
+#: functions.py:43
+msgid "and"
+msgstr "and"
+
+#: functions.py:44
+msgid "b10bin"
+msgstr "b10bin"
+
+#: functions.py:45
+msgid "ceil"
+msgstr "ceil"
+
+#: functions.py:46
+msgid "cos"
+msgstr "cos"
+
+#: functions.py:47
+msgid "cosh"
+msgstr "cosh"
+
+#: functions.py:48
+msgid "div"
+msgstr "div"
+
+#: functions.py:49
+msgid "gcd"
+msgstr "gcd"
+
+#: functions.py:50
+msgid "exp"
+msgstr "exp"
+
+#: functions.py:51
+msgid "factorial"
+msgstr "ක්‍රමාරෝපිත"
+
+#: functions.py:52
+msgid "fac"
+msgstr "fac"
+
+#: functions.py:53
+msgid "factorize"
+msgstr "සාධක වලට වෙන් කරන්න"
+
+#: functions.py:54
+msgid "floor"
+msgstr "floor"
+
+#: functions.py:55
+msgid "inv"
+msgstr "inv"
+
+#: functions.py:56
+msgid "is_int"
+msgstr "is_int"
+
+#: functions.py:57
+msgid "ln"
+msgstr "ln"
+
+#: functions.py:58
+msgid "log10"
+msgstr "log10"
+
+#: functions.py:59
+msgid "mul"
+msgstr "mul"
+
+#: functions.py:60
+msgid "or"
+msgstr "or"
+
+#: functions.py:61
+msgid "rand_float"
+msgstr "rand_float"
+
+#: functions.py:62
+msgid "rand_int"
+msgstr "rand_int"
+
+#: functions.py:63
+msgid "round"
+msgstr "round"
+
+#: functions.py:64
+msgid "sin"
+msgstr "sin"
+
+#: functions.py:65
+msgid "sinh"
+msgstr "sinh"
+
+#: functions.py:66
+msgid "sinc"
+msgstr "sinc"
+
+#: functions.py:67
+msgid "sqrt"
+msgstr "sqrt"
+
+#: functions.py:68
+msgid "sub"
+msgstr "sub"
+
+#: functions.py:69
+msgid "square"
+msgstr "square"
+
+#: functions.py:70
+msgid "tan"
+msgstr "tan"
+
+#: functions.py:71
+msgid "tanh"
+msgstr "tanh"
+
+#: functions.py:72
+msgid "xor"
+msgstr "xor"
+
+#: functions.py:112
+msgid "abs(x), return absolute value of x, which means -x for x < 0"
+msgstr "abs(x), x හි නියත අගය ලබා දෙයි, එනම් x <0 සඳහා -x"
+
+#: functions.py:117
+msgid ""
+"acos(x), return the arc cosine of x. This is the angle for which the cosine "
+"is x. Defined for -1 <= x < 1"
+msgstr ""
+"acos(x), කෝසයින අගය ලබා දෙයි. මෙය කෝයිනය x වන කෝණයයි. -1 <= x < 1 සඳහා අර්ථ "
+"දැක්වේ"
+
+#: functions.py:123
+msgid ""
+"acosh(x), return the arc hyperbolic cosine of x. This is the value y for "
+"which the hyperbolic cosine equals x."
+msgstr ""
+"acosh(x), x හි බහුවලයික කෝසයින අගය ලබා දෙයි. මෙය බහුවලයික කෝසයිනය x ට සමානවන "
+"y අගයයි."
+
+#: functions.py:129
+msgid ""
+"And(x, y), logical and. Returns True if x and y are True, else returns False"
+msgstr ""
+"and(x, y), තාර්කික and. x හා y යන දෙකම සත්‍ය විට සත්‍ය ද අන් සෑම විටකම "
+"අසත්‍ය ද ලබා දෙයි"
+
+#: functions.py:136
+msgid "add(x, y), return x + y"
+msgstr "add(x, y), x + y ලබා දෙයි"
+
+#: functions.py:141
+msgid ""
+"asin(x), return the arc sine of x. This is the angle for which the sine is "
+"x. Defined for -1 <= x <= 1"
+msgstr ""
+"asin(x), x හි චාප සයිනය ලබා දෙයි. මෙය සයිනය x වන කෝණයයි. -1 <= x <= 1 සඳහා "
+"අර්ථ දැක්වේ"
+
+#: functions.py:147
+msgid ""
+"asinh(x), return the arc hyperbolic sine of x. This is the value y for which "
+"the hyperbolic sine equals x."
+msgstr ""
+"asinh(x), x හි බහුවලයික සයින අගය ලබා දෙයි. මෙය බහුවලයික සයිනය x ට සමානවන y "
+"අගයයි."
+
+#: functions.py:153
+msgid ""
+"atan(x), return the arc tangent of x. This is the angle for which the "
+"tangent is x. Defined for all x"
+msgstr ""
+"atan(x), x හි චාප ටෑනය එවයි. මෙටෑනයයිනය x වන කෝණයයි. සියළු x සඳහා අර්ථදැක්වේ"
+
+#: functions.py:159
+msgid ""
+"atanh(x), return the arc hyperbolic tangent of x. This is the value y for "
+"which the hyperbolic tangent equals x."
+msgstr ""
+"atanh(x), x හි බහුවලයික ටැංජන අගය ලබා දෙයි. මෙය බහුවලයික ටැංජනය x ට සමානවන y "
+"අගයයි."
+
+#: functions.py:171
+msgid "Number does not look binary in base 10"
+msgstr "අංකය 10 පාදයේදී ද්වීමය ලෙස නොපෙනෙයි"
+
+#: functions.py:178
+msgid ""
+"b10bin(x), interpret a number written in base 10 as binary, e.g.: b10bin"
+"(10111) = 23,"
+msgstr ""
+"b10bin(x), 10 පාදයෙන් ලියා ඇති අංකයක් ද්වීමය ලෙස අර්ථය පහදා දෙයි, උදා.: "
+"b10bin(10111) = 23,"
+
+#: functions.py:183
+msgid "ceil(x), return the smallest integer larger than x."
+msgstr "ceil(x), x ට වඩා වැඩි කුඩාම නිඛිල සංඛ්‍යාව ලබා දෙයි."
+
+#: functions.py:188
+msgid ""
+"cos(x), return the cosine of x. This is the x-coordinate on the unit circle "
+"at the angle x"
+msgstr "cos(x), x හි කෝසයිනය එවයි. මෙය ඒකක වෘතයේ කෝණය x වන X-ඛණ්ඩාංක අගයයි"
+
+#: functions.py:194
+msgid ""
+"cosh(x), return the hyperbolic cosine of x. Given by (exp(x) + exp(-x)) / 2"
+msgstr ""
+"cosh(x), x හි බහුවලයික කෝසයිනය එවයි. (exp(x) + exp(-x)) / 2 මඟින් දෙනු ලැබේ"
+
+#: functions.py:198
+msgid "Can not divide by zero"
+msgstr "ශූන්‍යයෙන් බෙදිය නොහැක"
+
+#: functions.py:219
+msgid "Invalid argument"
+msgstr "අවලංගු විස්තාරකය"
+
+#: functions.py:222
+msgid ""
+"gcd(a, b), determine the greatest common denominator of a and b. For "
+"example, the biggest factor that is shared by the numbers 15 and 18 is 3."
+msgstr ""
+"gcd(a, b), a හා b හි මහා පොදු සාධකය තීරණය කරයි. උදාහරණයක් ලෙස, 15 සහ 18 යන "
+"අංක හවුලේ තබා ගන්නා විශාලතම සාධකය 3 වේ."
+
+#: functions.py:227
+msgid "exp(x), return the natural exponent of x. Given by e^x"
+msgstr "exp(x), x හි ප්‍රකෘති ඝාතය එවයි. e^x මඟින් දෙනු ලැබේ"
+
+#: functions.py:231
+msgid "Factorial only defined for integers"
+msgstr "ක්‍රමාරෝපිතය නිඛිල සංඛ්‍යා සඳහා පමණක් අර්ථ දක්වා ඇත"
+
+#: functions.py:244
+msgid ""
+"factorial(n), return the factorial of n. Given by n * (n - 1) * (n - 2) * ..."
+msgstr ""
+"factorial(n), n හි ක්‍රමාරෝපිතය ලබා දෙයි. n * (n - 1) * (n - 2) * ... දෙනු "
+"ලබයි"
+
+#: functions.py:250
+msgid "fac(x), return the factorial of x. Given by x * (x - 1) * (x - 2) * ..."
+msgstr "fac(x), ක්‍රමාරෝපිත x එවයි. x * (x - 1) * (x - 2) * ... මඟින් දෙනු ලැබේ"
+
+#: functions.py:283
+msgid "floor(x), return the largest integer smaller than x."
+msgstr "floor(x), x ට වඩා අඩු විශාලම නිඛිල සංඛ්‍යාව ලබා දෙයි."
+
+#: functions.py:287
+msgid "inv(x), return the inverse of x, which is 1 / x"
+msgstr "inv(x), x හි ප්‍රතිලෝමය ලබා දෙයි, එනම් 1 / x"
+
+#: functions.py:309 functions.py:318
+msgid "Logarithm(x) only defined for x > 0"
+msgstr "Logarithm(x) අර්ථ දක්වන්නේ x > 0 සඳහා පමණි"
+
+#: functions.py:311
+msgid ""
+"ln(x), return the natural logarithm of x. This is the value for which the "
+"exponent exp() equals x. Defined for x >= 0."
+msgstr ""
+"ln(x), x හි ප්‍රකෘති ලඝු ගණකය එවයි. මෙය exp() = x වන ඝාතීය අගයයි. x >= 0 "
+"සඳහා අර්ථ දැක්වේ."
+
+#: functions.py:320
+msgid ""
+"log10(x), return the base 10 logarithm of x. This is the value y for which "
+"10^y equals x. Defined for x >= 0."
+msgstr ""
+"log10(x), x හි 10 පාදයේ ලොග් අගය ලබා දෙයි. මෙය 10^y අගය x ට සමාන වන y අගයයි. "
+"x >= 0 සඳහා අර්ථ දක්වා ඇත."
+
+#: functions.py:327
+msgid "Can only calculate x modulo <integer>"
+msgstr "ගණනය කල හැක්කේ x modulo <integer> පමණි"
+
+#: functions.py:329
+msgid ""
+"mod(x, y), return the modulus of x with respect to y. This is the remainder "
+"after dividing x by y."
+msgstr ""
+"mod(x, y), y ට අදාලව x හි මාපාංකය ලබා දෙයි. මෙය x, y ගෙන් බෙදූ පසු ශේෂයයි."
+
+#: functions.py:337
+msgid "mul(x, y), return x * y"
+msgstr "mul(x, y), x * y ලබා දෙයි"
+
+#: functions.py:341
+msgid "negate(x), return -x"
+msgstr "negate(x), -x ලබා දෙයි"
+
+#: functions.py:346
+msgid ""
+"Or(x, y), logical or. Returns True if x or y is True, else returns False"
+msgstr ""
+"or(x, y), තාර්කික හෝ . x හෝ y සත්‍ය විට සත්‍ය ද අන් සෑම විටම අසත්‍ය ද ලබා "
+"දෙයි"
+
+#: functions.py:361
+msgid "pow(x, y), return x to the power y (x**y)"
+msgstr "pow(x, y), x, y බලයට ලබා දෙයි (x**y)"
+
+#: functions.py:366
+msgid "rand_float(), return a random floating point number between 0.0 and 1.0"
+msgstr "rand_float(), 0.0 සහ 1.0 අතර අහඹු දශම සංඛ්‍යාවක් ලබා දෙයි"
+
+#: functions.py:371
+msgid ""
+"rand_int([<maxval>]), return a random integer between 0 and <maxval>. "
+"<maxval> is an optional argument and is set to 65535 by default."
+msgstr ""
+"rand_int([<maxval>]), 0 සහ <maxval> අතර අහඹු නිඛිල සංඛ්‍යාවක් ලබා දෙයි. "
+"<maxval> අමතර විස්තරකයක් වන අතර පෙරනිමියෙන් 65535 ට සකසා ඇත."
+
+#: functions.py:376
+msgid "round(x), return the integer nearest to x."
+msgstr "round(x), x ට ආසන්නතම නිඛිල සංඛ්‍යාව ලබා දෙයි."
+
+#: functions.py:382 functions.py:390
+msgid "Bitwise operations only apply to integers"
+msgstr "බිටු අනුව මෙහෙයුම් නිඛිල සංඛ්‍යා වලට පමණක් යෙදෙයි"
+
+#: functions.py:384
+msgid "shift_left(x, y), shift x by y bits to the left (multiply by 2 per bit)"
+msgstr ""
+"shift_left(x, y), y බිටි ප්‍රමාණයකින් x වමට තල්ලු කරයි (බිටුවකට 2න් ගුණ "
+"කිරීම)"
+
+#: functions.py:392
+msgid "shift_right(x, y), shift x by y bits to the right (divide by 2 per bit)"
+msgstr ""
+"shift_right(x, y), y බිටි ප්‍රමාණයකින් x දකුණට තල්ලු කරයි (බිටුවකට 2න් "
+"බෙදීම)"
+
+#: functions.py:397
+msgid ""
+"sin(x), return the sine of x. This is the y-coordinate on the unit circle at "
+"the angle x"
+msgstr "sin(x), x හි ෝසයිනය එවයි. මෙය ඒකක වෘතයේ කෝණය x වනYX-ඛණ්ඩාංක අගයයි"
+
+#: functions.py:403
+msgid ""
+"sinh(x), return the hyperbolic sine of x. Given by (exp(x) - exp(-x)) / 2"
+msgstr ""
+"sinh(x), x හි බහුවලයික සයිනය එවයි. (exp(x) - exp(-x)) / 2 මඟින් දෙනු ලැබේ"
+
+#: functions.py:410
+msgid "sinc(x), return the sinc of x. This is given by sin(x) / x."
+msgstr "sinc(x), x හි sinc ලබා දෙයි. මෙය sin(x) / x මඟින් දෙනු ලබයි."
+
+#: functions.py:415
+msgid ""
+"sqrt(x), return the square root of x. This is the value for which the square "
+"equals x. Defined for x >= 0."
+msgstr ""
+"sqrt(x), x හි වර්ගමූලය එවයි. මෙය වර්ගය x වන සේ වූ අගයයි . x >= 0 සඳහා අර්ථ "
+"දැක්වේ."
+
+#: functions.py:420
+msgid "square(x), return x * x"
+msgstr "square(x), x * x ලබා දෙයි"
+
+#: functions.py:427
+msgid "sub(x, y), return x - y"
+msgstr "sub(x, y), x - y ලබා දෙයි"
+
+#: functions.py:432
+msgid ""
+"tan(x), return the tangent of x. This is the slope of the line from the "
+"origin of the unit circle to the point on the unit circle defined by the "
+"angle x. Given by sin(x) / cos(x)"
+msgstr ""
+"tan(x), x හි ටෑන්ජනය එවයි. මෙය ඒකක වෘතයේ මූලයේ සිට එහි පරිධිය මතකෝණය x වන සේ "
+"වූ ලක්ෂයට අඩින ලද රේඛාවේ බෑවුමයි. sin(x) / cos(x) මඟින් දෙනු ලැබේ"
+
+#: functions.py:439
+msgid "tanh(x), return the hyperbolic tangent of x. Given by sinh(x) / cosh(x)"
+msgstr ""
+"tanh(x), x හි බහුවලයික ටැංජනය ලබා දෙයි. sinh(x) / cosh(x) මඟින් දෙනු ලැබේ"
+
+#: functions.py:444
+msgid ""
+"xor(x, y), logical xor. Returns True if either x is True (and y is False) or "
+"y is True (and x is False), else returns False"
+msgstr ""
+"xor(x, y), තාර්කික xor. x හා y දෙකින් එකක් පමණක් සත්‍ය විට සත්‍ය ද අන්සෑම "
+"විටකම අසත්‍ය ද එවයි"
+
+#: layout.py:75
+msgid "Clear"
+msgstr "පවිත්‍ර කරන්න"
+
+#: layout.py:105 layout.py:145
+msgid "Edit"
+msgstr "සකසන්න"
+
+#: layout.py:110 layout.py:146
+msgid "Algebra"
+msgstr "වීජ ගණිතය"
+
+#: layout.py:115 layout.py:147
+msgid "Trigonometry"
+msgstr "ත්‍රිකෝණමිතිය"
+
+#: layout.py:120 layout.py:148
+msgid "Boolean"
+msgstr "බූලීය"
+
+#: layout.py:125 layout.py:149
+msgid "Miscellaneous"
+msgstr "විවිධ"
+
+#: layout.py:178
+msgid "Label:"
+msgstr "ලේබලය:"
+
+#: layout.py:223
+msgid "All equations"
+msgstr "සියළු සමීකරණ"
+
+#: layout.py:224
+msgid "My equations"
+msgstr "මගේ සමීකරණ"
+
+#: layout.py:225
+msgid "Show variables"
+msgstr "විචල්‍යයන් පෙන්වන්න"
+
+#. TRANS: multiplication symbol (default: '×')
+#: mathlib.py:82
+msgid "mul_sym"
+msgstr "*"
+
+#. TRANS: division symbol (default: '÷')
+#: mathlib.py:87
+msgid "div_sym"
+msgstr "/"
+
+#. TRANS: equal symbol (default: '=')
+#: mathlib.py:92
+msgid "equ_sym"
+msgstr "="
+
+#: mathlib.py:216
+msgid "Undefined"
+msgstr "අර්ථදක්වා නැත"
+
+#: mathlib.py:226
+msgid "Error: unsupported type"
+msgstr "දෝෂයක්: සහය නොදක්වන වර්ගයකි"
+
+#: toolbars.py:53
+msgid "Help"
+msgstr "උදව්"
+
+#: toolbars.py:121
+msgid "Copy"
+msgstr "පිටපත් කරන්න"
+
+#: toolbars.py:122
+msgid "<ctrl>c"
+msgstr "<ctrl>c"
+
+#: toolbars.py:126
+msgid "Cut"
+msgstr "කපන්න"
+
+#: toolbars.py:129
+msgid "<ctrl>x"
+msgstr "<ctrl>x"
+
+#: toolbars.py:137
+msgid "Paste"
+msgstr "අලවන්න"
+
+#: toolbars.py:147
+msgid "Square"
+msgstr "සමචතුරස්‍රය"
+
+#: toolbars.py:152
+msgid "Square root"
+msgstr "වර්ගමූලය"
+
+#: toolbars.py:157
+msgid "Inverse"
+msgstr "ප්‍රතිලෝමය"
+
+#: toolbars.py:164
+msgid "e to the power x"
+msgstr "e හි x වන බලය"
+
+#: toolbars.py:169
+msgid "x to the power y"
+msgstr "x හි y වන බලය"
+
+#: toolbars.py:174
+msgid "Natural logarithm"
+msgstr "ප්‍රකෘති ලඝුගණකය"
+
+#: toolbars.py:180
+msgid "Factorial"
+msgstr "ක්‍රමාරෝපිත"
+
+#: toolbars.py:190
+msgid "Sine"
+msgstr "සයින්"
+
+#: toolbars.py:194
+msgid "Cosine"
+msgstr "කෝසයින්"
+
+#: toolbars.py:198
+msgid "Tangent"
+msgstr "ටෑන්"
+
+#: toolbars.py:204
+msgid "Arc sine"
+msgstr "චාප සයින්"
+
+#: toolbars.py:208
+msgid "Arc cosine"
+msgstr "චාප කෝසයින්"
+
+#: toolbars.py:212
+msgid "Arc tangent"
+msgstr "චාප ටෑන්"
+
+#: toolbars.py:218
+msgid "Hyperbolic sine"
+msgstr "බහුවලයික සයින්"
+
+#: toolbars.py:222
+msgid "Hyperbolic cosine"
+msgstr "බහුවලයික කෝසයින්"
+
+#: toolbars.py:226
+msgid "Hyperbolic tangent"
+msgstr "බහුවලයික ටෑන්"
+
+#: toolbars.py:236
+msgid "Logical and"
+msgstr "තාර්කික සහ"
+
+#: toolbars.py:240
+msgid "Logical or"
+msgstr "තාර්කික හෝ"
+
+#: toolbars.py:250
+msgid "Equals"
+msgstr "සමානයි"
+
+#: toolbars.py:253
+msgid "Not equals"
+msgstr "අසමානයි"
+
+#: toolbars.py:262
+msgid "Pi"
+msgstr "පයි"
+
+#: toolbars.py:266
+msgid "e"
+msgstr "ඊ"
+
+#: toolbars.py:269
+msgid "γ"
+msgstr "γ"
+
+#: toolbars.py:272
+msgid "φ"
+msgstr "φ"
+
+#: toolbars.py:279
+msgid "Plot"
+msgstr "අඳින්න"
+
+#: toolbars.py:286
+msgid "Degrees"
+msgstr "අංශක"
+
+#: toolbars.py:287
+msgid "Radians"
+msgstr "රේඩියන"
+
+#: toolbars.py:291
+msgid "Degrees / Radians"
+msgstr "අංශක / රේඩියන"
+
+#: toolbars.py:300
+msgid "Exponent / Scientific notation"
+msgstr "ඝාතීය / විද්‍යාත්මක අංකනය"
+
+#: toolbars.py:310
+msgid "Number of shown digits"
+msgstr "පෙන්වන ඉලක්කම් ගණන"
+
+#: toolbars.py:320
+msgid "Integer formatting base"
+msgstr "නිඛිල සංඛ්‍යා ආකෘතිකරණය කිරීමේ පාදය"
+
+#~ msgid "Change view between own and all equations"
+#~ msgstr "අයිති සහ සියළු සමීකරණ අතර දසුන වෙනස් කරන්න"
+
+#~ msgid "Show history"
+#~ msgstr "ඉතිහාසය පෙන්වන්න"
+
+#~ msgid "Change view between history and variables"
+#~ msgstr "අතීතය සහ විචල්‍ය අතර දසුන වෙනස් කරන්න"
+
+#~ msgid "Enter"
+#~ msgstr "ස්ථිර කරන්න"
+
+#~ msgid "Available functions:"
+#~ msgstr "පවතින ක්‍රියාවලි:"
+
+#, python-format
+#~ msgid "level: %d, ofs %d"
+#~ msgstr "අදියර: %d, ofs %d"
+
+#, python-format
+#~ msgid "Invalid number of arguments (%d instead of %d)"
+#~ msgstr "චලංගු නොවන තර්ක ගණනකි (%d නොව %d විය යුතුය)"
+
+#, python-format
+#~ msgid "function takes %d args"
+#~ msgstr "ක්‍රියාවලිය තර්ක %d ක් ගනී"
+
+#, python-format
+#~ msgid "Unable to parse argument %d: '%s'"
+#~ msgstr "%d තර්කය විශ්ලේෂණය කළ නොහැක: '%s'"
+
+#, python-format
+#~ msgid "Function error: %s"
+#~ msgstr "ක්‍රියාවලි දෝෂයක්: %s"
+
+#~ msgid "Left parenthesis unexpected"
+#~ msgstr "වමත් සුළු වරහන අනපේක්ෂිතයි"
+
+#~ msgid "Parse error (right parenthesis)"
+#~ msgstr "විශ්ලේෂණ දෝෂයක් (දකුණත් සුළු වරහන)"
+
+#~ msgid "Right parenthesis unexpected"
+#~ msgstr "දකුණත් සුළු වරහන අනපේක්ෂිතයි"
+
+#~ msgid "Parse error (right parenthesis, no left_val)"
+#~ msgstr "විශ්ලේෂණ දෝෂයක් (දකුණත් සුළු වරහන, වමත් අගයක් නොමැති)"
+
+#~ msgid "Parse error (right parenthesis, no level to close)"
+#~ msgstr "විශ්ලේෂණ දෝෂයක් (දකුණත් සුළු වරහන, වැසීමට මට්ටමක් නැත)"
+
+#~ msgid "Number not expected"
+#~ msgstr "ගණන අනපේක්ෂිතයි"
+
+#~ msgid "Operator not expected"
+#~ msgstr "කාරකය අනපේක්ෂිතයි"
+
+#~ msgid "Parse error: number or variable expected"
+#~ msgstr "විශ්ලේෂණ දෝෂයක්: අංකයක් හෝ විචල්‍යක් අපේක්ෂිතයි"
+
+#~ msgid "Number or variable expected"
+#~ msgstr "අංකයක් හෝ විචල්‍යක් අපේක්ෂිතයි"
+
+#~ msgid "Invalid operator"
+#~ msgstr "වලංගු නොවන කාරකයක්"
+
+#~ msgid "Operator expected"
+#~ msgstr "කාරකයක් අපේක්ෂිතයි"
+
+#~ msgid "_parse(): returning None"
+#~ msgstr "_parse(): None එවයි"
+
+#~ msgid "functions(), return a list of all the functions that are defined"
+#~ msgstr "functions(), අර්ථ දක්වා ඇති සියළුම ශ්‍රිත එවයි"
+
+#~ msgid "operators"
+#~ msgstr "operators"
+
+#~ msgid "operators(), return a list of the operators that are defined"
+#~ msgstr "operators(), අර්ථ දක්වා ඇති කාරක ලැයිස්තුවක් එවයි"
+
+#~ msgid "plot"
+#~ msgstr "plot"
+
+#~ msgid "square(x), return the square of x. Given by x * x"
+#~ msgstr "square(x), x හි වර්ගය එවයි. x * x මඟින් දෙනු ලැබේ"
+
+#~ msgid "test"
+#~ msgstr "පරීක්ෂා කිරීම"
+
+#~ msgid "variables(), return a list of the variables that are currently defined"
+#~ msgstr "variables(), දැනට අර්ථදක්වා ඇති සියළුම විචල්‍යයන් ලැයිස්තුවක් එවයි"
+
+#~ msgid "Constants"
+#~ msgstr "නියත"
+
+#~ msgid "Format"
+#~ msgstr "හැඩතලය"

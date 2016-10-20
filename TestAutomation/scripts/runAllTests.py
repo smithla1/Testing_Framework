@@ -25,6 +25,7 @@ import re
 import progressBar
 import runTestCase
 import testCaseParser
+from myExceptions import ImproperTestCaseSpecificationError
 
 # Preserve current directory
 starting_path = os.getcwd()
@@ -88,26 +89,51 @@ for test in testCaseNames:
     # cases) so runAllTests can continue running each script
     current_path = os.getcwd()
     
+    # Create templates for appending to the html document
+    link_template = ('<a href="file://{0}/testCase{1}.txt" target="_blank"'
+                '>{1}</a>')
+    test_passed = '<font color = "Green">Pass</font>'
+    test_failed = '<font color = "Red">Fail</font>'
+    result_template = ("<tr>"
+                     + "<td>{0}</td>" # HTML Link to test case
+                     + "<td>{1}</td>" # Tested method
+                     + "<td>{2}</td>" # Input
+                     + "<td>{3}</td>" # Expected outcome
+                     + "<td>{4}</td>" # Actual outcome
+                     + "<td>{5}</td>" # Pass/Fail
+                     + "</tr>")
+    
     # Gather the necessary information for the test case
-    testCaseRequirements = testCaseParser.parseTestCase(test)
+    try:
+        testCaseRequirements = testCaseParser.parseTestCase(test)
+    except ImproperTestCaseSpecificationError as e:
+        content_result = result_template.format(
+                link_template.format(current_path, str(int(progress_interval))),
+                "",
+                "",
+                "",
+                '<font color = "Red">ERROR</font>',
+                "-",)
+        
+        reportGeneration = reportGeneration + content_result
+        os.chdir(current_path)
+        progressBar.update_progress(progress_interval/len(testCaseNames))
+        progress_interval += 1.0
+        
+        continue
     
     # Run the test case and get the results with the provided input
     testCaseResult = runTestCase.runTestCase(testCaseRequirements[1:4])
     
     # Create a string containing the pertinent information
-    link = ('<a href="file://{0}/testCase{1}.txt" target="_blank"'
-                '>{1}</a>')
-    test_passed = '<font color = "Green">Pass</font>'
-    test_failed = '<font color = "Red">Fail</font>'
-    
-    current_result = ("<tr><td>"
-        + str(link.format(current_path, testCaseRequirements[0])) + "</td><td>"
-        + str(testCaseRequirements[2]) + "</td><td>"
-        + str(testCaseRequirements[3]) + "</td><td>"
-        + str(testCaseRequirements[4]) + "</td><td>"
-        + str(testCaseResult) + "</td><td>"
-        + (test_failed, test_passed)[eval(testCaseRequirements[4])==eval(str(testCaseResult))]
-        + "</td></tr>")
+    current_result = result_template.format(
+            link_template.format(current_path, testCaseRequirements[0]),
+            str(testCaseRequirements[2]),
+            str(testCaseRequirements[3]),
+            str(testCaseRequirements[4]),
+            str(testCaseResult),
+            (test_failed, test_passed)[eval(testCaseRequirements[4])==eval(str(testCaseResult))],
+            )
     
     # Append the newly created string to the html file
     reportGeneration = reportGeneration + current_result

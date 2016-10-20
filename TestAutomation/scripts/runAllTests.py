@@ -21,6 +21,7 @@
 import subprocess
 import os
 import imp
+import re
 import progressBar
 import runTestCase
 import testCaseParser
@@ -28,14 +29,18 @@ import testCaseParser
 # Preserve current directory
 starting_path = os.getcwd()
 
-# Navigate to directory containing test cases
-os.chdir("../testCases")
+# Navigate to directory containing test cases from home directory
+os.chdir("TestAutomation/testCases")
 
 # Gather the name of each test case into a list
 #   Gather a string containing filenames with ls
 #   Split the string on newline characters
 #   Remove the extraneous last element in the resulting list ('')
 testCaseNames = subprocess.check_output(['ls']).split('\n')[:-1]
+
+# Remove anything that is not in a test case
+pattern = re.compile("testCase[0-9]+.txt")
+testCaseNames = [filename for filename in testCaseNames if pattern.match(filename)]
 
 # Create the testReport that will be further modified to create a final document
 # detailing the results of each test case
@@ -116,7 +121,7 @@ for test in testCaseNames:
 
 # Return to starting path to simplify navigation to reports directory
 os.chdir(starting_path)
-os.chdir("../reports") 
+os.chdir("TestAutomation/reports") 
 
 # Finalize, write, and close resources for the testReport
 reportGeneration = reportGeneration + "</table></body></html>"

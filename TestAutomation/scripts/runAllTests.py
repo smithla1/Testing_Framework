@@ -112,7 +112,7 @@ for test in testCaseNames:
                 "",
                 "",
                 "",
-                '<font color = "Red">ERROR</font>',
+                '<font color = "Red">PARSE ERROR</font>',
                 "-",)
         
         reportGeneration = reportGeneration + content_result
@@ -121,6 +121,23 @@ for test in testCaseNames:
         progress_interval += 1.0
         
         continue
+    
+    except Exception as e:
+        content_result = result_template.format(
+                link_template.format(current_path, str(int(progress_interval))),
+                "",
+                "",
+                "",
+                '<font color = "Red">RUN ERROR</font>',
+                "-",)
+        
+        reportGeneration = reportGeneration + content_result
+        os.chdir(current_path)
+        progressBar.update_progress(progress_interval/len(testCaseNames))
+        progress_interval += 1.0
+        
+        continue
+        
     
     # Run the test case and get the results with the provided input
     testCaseResult = runTestCase.runTestCase(testCaseRequirements[1:4])

@@ -103,9 +103,12 @@ for test in testCaseNames:
                      + "<td>{5}</td>" # Pass/Fail
                      + "</tr>")
     
-    # Gather the necessary information for the test case
+    # Gather the necessary information for the test case and then attempt
+    # to run the test case
     try:
         testCaseRequirements = testCaseParser.parseTestCase(test)
+        testCaseResult = runTestCase.runTestCase(testCaseRequirements[1:4])
+        
     except ImproperTestCaseSpecificationError as e:
         content_result = result_template.format(
                 link_template.format(current_path, str(int(progress_interval))),
@@ -137,10 +140,6 @@ for test in testCaseNames:
         progress_interval += 1.0
         
         continue
-        
-    
-    # Run the test case and get the results with the provided input
-    testCaseResult = runTestCase.runTestCase(testCaseRequirements[1:4])
     
     # Create a string containing the pertinent information
     current_result = result_template.format(

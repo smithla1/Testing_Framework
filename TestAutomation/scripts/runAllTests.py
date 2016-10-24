@@ -24,7 +24,7 @@ import imp
 import re
 import progressBar
 import runTestCase
-import testCaseParser
+import parseTestCase
 from myExceptions import ImproperTestCaseSpecificationError
 
 # Preserve current directory
@@ -106,7 +106,7 @@ for test in testCaseNames:
     # Gather the necessary information for the test case and then attempt
     # to run the test case
     try:
-        testCaseRequirements = testCaseParser.parseTestCase(test)
+        testCaseRequirements = parseTestCase.parseTestCase(test)
         testCaseResult = runTestCase.runTestCase(testCaseRequirements[1:4])
         
     except ImproperTestCaseSpecificationError as e:

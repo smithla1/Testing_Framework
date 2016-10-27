@@ -11,4 +11,4 @@ Method being tested: sqrt(a)
 
 Test input(s) including command-line arguments: -16
 
-Expected outcome(s): Error
+Expected outcome(s): "Error"

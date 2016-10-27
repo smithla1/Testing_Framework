@@ -9,7 +9,7 @@ Component being tested:
 
 Method being tested: div(a, b)
 
-Test input(s) including command-line arguments: 120, 8
+Test input(s) including command-line arguments: 4, 0
 
-Expected outcome(s): 15
+Expected outcome(s): "Can not divide by zero"
 

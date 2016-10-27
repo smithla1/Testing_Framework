@@ -9,6 +9,6 @@ Component being tested:
 
 Method being tested: sqrt(a)
 
-Test input(s) including command-line arguments: 16
+Test input(s) including command-line arguments: -16
 
-Expected outcome(s): 4.0
+Expected outcome(s): "math domain error"

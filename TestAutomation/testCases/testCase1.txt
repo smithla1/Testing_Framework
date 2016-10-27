@@ -10,5 +10,4 @@ Component being tested:
 Method being tested: pow(a, b)
 
 Test input(s) including command-line arguments: 2, 10
-
 Expected outcome(s): 1024

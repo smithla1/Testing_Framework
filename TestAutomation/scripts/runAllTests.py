@@ -128,12 +128,12 @@ for test in testCaseNames:
     except Exception as e:
         content_result = result_template.format(
                 link_template.format(current_path, str(int(progress_interval))),
-                "",
-                "",
-                "",
-                '<font color = "Red">RUN ERROR</font>',
-                "-",)
-        
+                str(testCaseRequirements[2]),
+                str(testCaseRequirements[3]),
+                str(testCaseRequirements[4]),
+                '<font color = "Red">' + "\"" + str(e) + "\"" + '</font>',
+                (test_failed, test_passed)[eval(testCaseRequirements[4])==eval("\"" + str(e) + "\"")],
+                )
         reportGeneration = reportGeneration + content_result
         os.chdir(current_path)
         progressBar.update_progress(progress_interval/len(testCaseNames))

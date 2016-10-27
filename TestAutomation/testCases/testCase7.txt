@@ -1,14 +1,14 @@
 Test Case ID: 7
 
 Requirement being tested:
-    Correct and accurate exponentiation
+    Accurate calculation of square roots
 
 Component being tested:
     Sugar labs calculator - functions.py
     Path to file: TestAutomation/project/sugar-calculate/functions.py
 
-Method being tested: pow(a, b)
+Method being tested: sqrt(a)
 
-Test input(s) including command-line arguments: 2, -1
+Test input(s) including command-line arguments: -4
 
-Expected outcome(s): .5
+Expected outcome(s): "math domain error"

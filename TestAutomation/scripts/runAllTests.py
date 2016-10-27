@@ -131,7 +131,7 @@ for test in testCaseNames:
                 str(testCaseRequirements[2]),
                 str(testCaseRequirements[3]),
                 str(testCaseRequirements[4]),
-                '<font color = "Red">' + "\"" + str(e) + "\"" + '</font>',
+                "\"" + str(e) + "\"",
                 (test_failed, test_passed)[eval(testCaseRequirements[4])==eval("\"" + str(e) + "\"")],
                 )
         reportGeneration = reportGeneration + content_result

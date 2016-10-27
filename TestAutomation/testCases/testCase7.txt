@@ -1,0 +1,14 @@
+Test Case ID: 7
+
+Requirement being tested:
+    Correct and accurate exponentiation
+
+Component being tested:
+    Sugar labs calculator - functions.py
+    Path to file: TestAutomation/project/sugar-calculate/functions.py
+
+Method being tested: pow(a, b)
+
+Test input(s) including command-line arguments: 2, -1
+
+Expected outcome(s): .5

@@ -1,4 +1,4 @@
-Test Case ID: 8
+Test Case ID: 19
 
 Requirement being tested:
     Accurate calculation of square roots
@@ -9,6 +9,6 @@ Component being tested:
 
 Method being tested: sqrt(a)
 
-Test input(s) including command-line arguments: 9
+Test input(s) including command-line arguments: -4
 
-Expected outcome(s): 3.0
+Expected outcome(s): "math domain error"

@@ -1,14 +1,14 @@
-Test Case ID: 2
+Test Case ID: 16
 
 Requirement being tested:
-    Accurate summation
+    Accurate calculation of square roots
 
 Component being tested:
     Sugar labs calculator - functions.py
     Path to file: TestAutomation/project/sugar-calculate/functions.py
 
-Method being tested: add(a, b)
+Method being tested: sqrt(a)
 
-Test input(s) including command-line arguments: 14.0, 7.5
+Test input(s) including command-line arguments: 16
 
-Expected outcome(s): 21.5
+Expected outcome(s): 4.0

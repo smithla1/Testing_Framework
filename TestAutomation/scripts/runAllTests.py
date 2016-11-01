@@ -43,6 +43,9 @@ testCaseNames = subprocess.check_output(['ls']).split('\n')[:-1]
 pattern = re.compile("testCase[0-9]+.txt")
 testCaseNames = [filename for filename in testCaseNames if pattern.match(filename)]
 
+testCaseNames = sorted(testCaseNames)
+testCaseNames = sorted(testCaseNames, key=len)
+
 # Create the testReport that will be further modified to create a final document
 # detailing the results of each test case
 reportGeneration = (

@@ -1,0 +1,30 @@
+pow:
+1	2 ints
+2	2 floats
+3	1 int, 1 decimal
+4	1 int, 1 negative exponent
+5	zero, some positive value
+add:
+6	2 positive ints
+7	2 negative ints
+8	1 positive, 1 negative
+9	1 float, 1 int
+10	2 floats
+div: 
+11	2 positive ints
+12	2 positive floats
+13	1 positive float, 1 negative int
+14	1 negative int, 1 negative float
+15	some value, zero
+sqrt:
+16	1 positive int
+17	1 positive float
+18	1 very near zero float
+19	1 negative
+20	zero
+cos:
+21	pi
+22	2 * pi
+23	pi / 2
+24	4 * pi
+25	-pi

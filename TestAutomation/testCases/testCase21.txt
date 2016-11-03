@@ -9,12 +9,7 @@ Component being tested:
 
 Method being tested: cos(a)
 
-<<<<<<< HEAD:TestAutomation/testCases/testCase10.txt
 Test input(s) including command-line arguments: 3.141592653599793
 
 Expected outcome(s): -1.0
-=======
-Test input(s) including command-line arguments: 3.14159
 
-Expected outcome(s): -1
->>>>>>> 449e5f4b6d5a91d19ae6378c56083c86360db4db:TestAutomation/testCases/testCase21.txt

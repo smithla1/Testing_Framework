@@ -1,4 +1,4 @@
-Test Case ID: 1
+Test Case ID: 4
 
 Requirement being tested:
     Correct and accurate exponentiation
@@ -9,5 +9,5 @@ Component being tested:
 
 Method being tested: pow(a, b)
 
-Test input(s) including command-line arguments: 2, 10
-Expected outcome(s): 1024
+Test input(s) including command-line arguments: 25.0, -0.5
+Expected outcome(s): 0.2

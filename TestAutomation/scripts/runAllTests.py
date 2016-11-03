@@ -114,7 +114,7 @@ for test in testCaseNames:
         
     except ImproperTestCaseSpecificationError as e:
         content_result = result_template.format(
-                link_template.format(current_path, str(int(progress_interval))),
+                link_template.format(current_path, test),
                 "",
                 "",
                 "",
@@ -130,7 +130,7 @@ for test in testCaseNames:
     
     except Exception as e:
         content_result = result_template.format(
-                link_template.format(current_path, str(int(progress_interval))),
+                link_template.format(current_path, testCaseRequirements[0]),
                 str(testCaseRequirements[2]),
                 str(testCaseRequirements[3]),
                 str(testCaseRequirements[4]),

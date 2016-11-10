@@ -1,0 +1,15 @@
+Test Case ID: 13
+
+Requirement being tested:
+    Accurate division
+
+Component being tested:
+    Sugar labs calculator - functions.py
+    Path to file: TestAutomation/project/sugar-calculate/functions.py
+
+Method being tested: div(a, b)
+
+Test input(s) including command-line arguments: 28.4, -4
+
+Expected outcome(s): -7.1
+

@@ -1,0 +1,13 @@
+Test Case ID: 9
+
+Requirement being tested:
+    Correct and accurate addition
+
+Component being tested:
+    Sugar labs calculator - functions.py
+    Path to file: TestAutomation/project/sugar-calculate/functions.py
+
+Method being tested: add(a, b)
+
+Test input(s) including command-line arguments: 12.5, 5
+Expected outcome(s): 17.5

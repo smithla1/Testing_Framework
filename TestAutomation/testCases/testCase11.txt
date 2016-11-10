@@ -12,4 +12,3 @@ Method being tested: div(a, b)
 Test input(s) including command-line arguments: 120, 8
 
 Expected outcome(s): 15
-

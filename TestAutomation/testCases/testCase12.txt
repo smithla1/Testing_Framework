@@ -11,4 +11,4 @@ Method being tested: div(a, b)
 
 Test input(s) including command-line arguments: 25.8, 3.0
 
-Expected outcome(s): 8.1
+Expected outcome(s): 8.6

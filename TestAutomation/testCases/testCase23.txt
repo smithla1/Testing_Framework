@@ -9,7 +9,7 @@ Component being tested:
 
 Method being tested: cos(a)
 
-Test input(s) including command-line arguments: 6.283185307179586
+Test input(s) including command-line arguments: 3.141592653599793
 
-Expected outcome(s): 1.0
+Expected outcome(s): -1.0
 

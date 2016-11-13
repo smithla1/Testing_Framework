@@ -1,15 +1,14 @@
 Test Case ID: 20
 
 Requirement being tested:
-    Accurate division
+    Accurate calculation of square roots
 
 Component being tested:
     Sugar labs calculator - functions.py
     Path to file: TestAutomation/project/sugar-calculate/functions.py
 
-Method being tested: div(a, b)
+Method being tested: sqrt(a)
 
-Test input(s) including command-line arguments: 5, 0
+Test input(s) including command-line arguments: -4
 
-Expected outcome(s): "Can not divide by zero"
-
+Expected outcome(s): "math domain error"

@@ -31,7 +31,7 @@ from myExceptions import ImproperTestCaseSpecificationError
 starting_path = os.getcwd()
 
 # Navigate to directory containing test cases from home directory
-os.chdir("TestAutomation/testCases")
+os.chdir("testCases")
 
 # Gather the name of each test case into a list
 #   Gather a string containing filenames with ls
@@ -166,7 +166,7 @@ for test in testCaseNames:
 
 # Return to starting path to simplify navigation to reports directory
 os.chdir(starting_path)
-os.chdir("TestAutomation/reports") 
+os.chdir("reports") 
 
 # Finalize, write, and close resources for the testReport
 reportGeneration = reportGeneration + "</table></body></html>"

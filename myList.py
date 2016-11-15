@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
 """
-    This python script will recursively walk the files in a
-    it's containing directory in an html file displayed in a 
-    browser.
+    This python script will recursively walk the files in it's
+    containing directory, creating a list of those files,
+    which will then be placed in an html file that will then
+    be displayed in a browser window.
 """
 
 import subprocess

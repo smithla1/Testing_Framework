@@ -202,7 +202,7 @@ def div(x, y):
         return _Rational(x, y)
 
     if isinstance(x, _Decimal) or isinstance(y, _Decimal):
-        x = x #_d(x)
+        x = _d(x)
         y = _d(y)
 
     return x / y
@@ -348,7 +348,7 @@ Or.__doc__ = _(
 def pow(x, y):
     if is_int(y):
         if is_int(x):
-            return long(x) ** int(y)
+            return long(x) * int(y) # return long(x) ** int(y)
         elif hasattr(x, '__pow__'):
             return x ** y
         else:

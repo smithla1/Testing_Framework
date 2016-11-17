@@ -31,8 +31,8 @@ class Rational:
         self.n = 0
         self.d = 0
 
-        if n is not None:
-            self.set(n, d)
+        #if n is not None:
+        #    self.set(n, d)
 
     def set(self, n, d=None):
         if d is not None:

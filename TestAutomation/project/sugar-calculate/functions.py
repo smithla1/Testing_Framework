@@ -98,7 +98,7 @@ class ClassValue:
     def __init__(self, val):
         self.value = val
 
-angle_scaling = ClassValue(1.0)
+angle_scaling = ClassValue(2.0) # angle_scaling = ClassValue(1.0) 
 
 def _scale_angle(x):
     return x * angle_scaling.value

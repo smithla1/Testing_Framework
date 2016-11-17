@@ -202,7 +202,7 @@ def div(x, y):
         return _Rational(x, y)
 
     if isinstance(x, _Decimal) or isinstance(y, _Decimal):
-        x = _d(x)
+        x = x #_d(x)
         y = _d(y)
 
     return x / y

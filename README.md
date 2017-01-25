@@ -11,10 +11,19 @@ simple Linux-based operating system. It is used to give disadvantaged population
 an opportunity to interact with a simple computer system.
 
 Our goals in designing this testing framework was to verify the Sugar Labs source code functioned
-correctly. To this end we designed a series of test cases to be run by calling the followig command
-from within the TestAutomaiton folder:
+correctly. In addition, this testing framework provides a way to verify that recent code changes
+caused no unexpected bugs or failures elsewhere in the project.
+
+For more detailed information about this project, please view the project [final report](Team_3_finalReport.pdf)
+
+## Using the Framework
+This automated testing framework was designed to be used on a Linux operating system. To use this 
+automated testing framework no additional dependencies will be required. Simply download the repository
+and navigate to the TestAutomation directory. Then, from within the TestAutomation directory, you may
+invoke the automated testing framework with the following command:
 ```
 ./scripts/runAllTests.py
 ```
-
-For more information about this project, please view the project [final report](Team_3_finalReport.pdf)
+This script, runAllTests.py, will parse through a folder containing test cases and verify that the software
+passes each test case. The results will be aggregated and displayed to the user. Again, for more detailed
+information about this project, please view our [final report](Team_3_finalReport.pdf).

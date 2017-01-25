@@ -3,7 +3,7 @@
 """
     This python script will recursively walk the files in it's
     containing directory, creating a list of those files,
-    which will then be placed in an html file that will then
+    which will then be placed in an html file and subsequently
     be displayed in a browser window.
 """
 
